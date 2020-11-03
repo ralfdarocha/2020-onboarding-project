@@ -1,0 +1,1 @@
+<reactstone-app id="reactstone"></reactstone-app>

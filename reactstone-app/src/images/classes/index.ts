@@ -1,0 +1,11 @@
+export { default as avatarDemonhunter } from './class-demonhunter.png';
+export { default as avatarDruid } from './class-druid.png';
+export { default as avatarHunter } from './class-hunter.png';
+export { default as avatarMage } from './class-mage.png';
+export { default as avatarNeutral } from './class-neutral.png';
+export { default as avatarPaladin } from './class-paladin.png';
+export { default as avatarPriest } from './class-priest.png';
+export { default as avatarRogue } from './class-rogue.png';
+export { default as avatarShaman } from './class-shaman.png';
+export { default as avatarWarlock } from './class-warlock.png';
+export { default as avatarWarrior } from './class-warrior.png';

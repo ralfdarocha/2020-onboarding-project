@@ -1,0 +1,3526 @@
+[
+    {
+      "cardId":"YOD_032e",
+      "dbfId":"56323",
+      "name":"Frenzied",
+      "cardSet":"Galakrond's Awakening",
+      "type":"Enchantment",
+      "text":"Cost reduced.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"OneTurnEffect"
+        }
+      ]
+    },
+    {
+      "cardId":"KARA_13_06",
+      "dbfId":"39775",
+      "name":"Prince Malchezaar",
+      "cardSet":"One Night in Karazhan",
+      "type":"Hero",
+      "health":30,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_13_06.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_13_06_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"KARA_13_06H",
+      "dbfId":"40735",
+      "name":"Prince Malchezaar",
+      "cardSet":"One Night in Karazhan",
+      "type":"Hero",
+      "health":30,
+      "artist":"Joe Madureira & Grace Liu",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_13_06H.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_13_06H_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_175e",
+      "dbfId":"56938",
+      "name":"Twin Slice",
+      "cardSet":"Demon Hunter Initiate",
+      "type":"Enchantment",
+      "text":"Your hero has +2 Attack this turn.",
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"OneTurnEffect"
+        }
+      ]
+    },
+    {
+      "cardId":"SCH_145",
+      "dbfId":"59599",
+      "name":"Desk Imp",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":0,
+      "attack":1,
+      "health":1,
+      "flavor":"\"I feel inky!\"",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/SCH_145.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/SCH_145_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"EX1_323h",
+      "dbfId":"492",
+      "name":"Lord Jaraxxus",
+      "cardSet":"Classic",
+      "type":"Hero",
+      "faction":"Neutral",
+      "rarity":"Legendary",
+      "cost":0,
+      "attack":0,
+      "health":15,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_323h.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_323h_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"DRG_207t",
+      "dbfId":"54895",
+      "name":"Abyssal Destroyer",
+      "cardSet":"Descent of Dragons",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "text":"<b>Taunt</b>",
+      "artist":"Ivan Fomin",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DRG_207t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DRG_207t_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_351",
+      "dbfId":"58487",
+      "name":"Battlefiend",
+      "cardSet":"Demon Hunter Initiate",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":1,
+      "health":2,
+      "text":"After your hero attacks, gain +1 Attack.",
+      "flavor":"Say what you like about my hatchet-headed hooligan, he\u2019s my battle-friend.",
+      "artist":"Andrew Hou",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_351.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_351_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"CS2_059",
+      "dbfId":"469",
+      "name":"Blood Imp",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":1,
+      "attack":0,
+      "health":1,
+      "text":"[x]  <b>Stealth</b>. At the end of your  \\nturn, give another random\\n friendly minion +1 Health.",
+      "flavor":"Imps are content to hide and viciously taunt everyone nearby.",
+      "artist":"Bernie Kang",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_059.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_059_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Stealth"
+        }
+      ]
+    },
+    {
+      "cardId":"DRG_238t12t2",
+      "dbfId":"55366",
+      "name":"Draconic Imp",
+      "cardSet":"Descent of Dragons",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "artist":"A.J. Nazzaro",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DRG_238t12t2.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DRG_238t12t2_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_922t",
+      "dbfId":"56592",
+      "name":"Felwing",
+      "cardSet":"Demon Hunter Initiate",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "artist":"Martin Sickree",
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BT_922t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BT_922t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_BaconUps_112",
+      "dbfId":"60671",
+      "name":"Fiendish Servant",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":4,
+      "health":2,
+      "text":"[x]<b>Deathrattle:</b> Give this\\nminion's Attack to a random\\nfriendly minion twice.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_112.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_112_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"YOD_026",
+      "dbfId":"56112",
+      "name":"Fiendish Servant",
+      "cardSet":"Galakrond's Awakening",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":2,
+      "health":1,
+      "text":"[x]<b>Deathrattle:</b> Give this\\nminion's Attack to a random\\nfriendly minion.",
+      "flavor":"Putting the \"r\" in fiend.",
+      "artist":"Mike Sass",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/YOD_026.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/YOD_026_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"EX1_319",
+      "dbfId":"1090",
+      "name":"Flame Imp",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":1,
+      "attack":3,
+      "health":2,
+      "text":"<b>Battlecry:</b> Deal 3 damage to your hero.",
+      "flavor":"Imps like being on fire.  They just do.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_319.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_319_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"KARA_09_03a_heroic",
+      "dbfId":"40320",
+      "name":"Icky Imp",
+      "cardSet":"One Night in Karazhan",
+      "type":"Minion",
+      "cost":1,
+      "attack":2,
+      "health":2,
+      "text":"<b>Deathrattle:</b> Resummon this minion and Illhoof loses 2 Health.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_09_03a_heroic.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_09_03a_heroic_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"KARA_09_03a",
+      "dbfId":"39643",
+      "name":"Icky Imp",
+      "cardSet":"One Night in Karazhan",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "text":"<b>Deathrattle:</b> Resummon this minion and Illhoof loses 2 Health.",
+      "artist":"Andrew Hou",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_09_03a.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_09_03a_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"GVG_045t",
+      "dbfId":"2270",
+      "name":"Imp",
+      "cardSet":"Goblins vs Gnomes",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GVG_045t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GVG_045t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_BaconUps_030t",
+      "dbfId":"58373",
+      "name":"Imp",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "cost":1,
+      "attack":2,
+      "health":2,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_030t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_030t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"GIL_191t",
+      "dbfId":"47502",
+      "name":"Imp",
+      "cardSet":"The Witchwood",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "artist":"Jaemin Kim",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/GIL_191t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/GIL_191t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"EX1_598",
+      "dbfId":"76",
+      "name":"Imp",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_598.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_598_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"DAL_751t",
+      "dbfId":"53305",
+      "name":"Imp",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "faction":"Neutral",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "artist":"Konstantin Turovec",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DAL_751t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DAL_751t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BRM_006t",
+      "dbfId":"2779",
+      "name":"Imp",
+      "cardSet":"Blackrock Mountain",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BRM_006t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BRM_006t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_008t",
+      "dbfId":"57906",
+      "name":"Impcaster",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "text":"<b>Spell Damage +1</b>",
+      "artist":"Zero",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BT_008t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BT_008t_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Spell Damage"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_121",
+      "dbfId":"56508",
+      "name":"Imprisoned Gan'arg",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":2,
+      "health":2,
+      "text":"<b>Dormant</b> for 2 turns.\\nWhen this awakens,\\nequip a 3/2 Axe.",
+      "flavor":"Factory Direct Fiery War Axe. Please allow two turns for delivery.",
+      "artist":"Ivan Fomin",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warrior",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_121.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_121_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_258",
+      "dbfId":"56624",
+      "name":"Imprisoned Homunculus",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":2,
+      "health":5,
+      "text":"<b>Dormant</b> for 2 turns.\\n<b>Taunt</b>",
+      "flavor":"He got a time out for excessive vulgarity.",
+      "artist":"Matt Dixon",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Priest",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_258.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_258_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"SCH_600t3",
+      "dbfId":"59393",
+      "name":"Kolek",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "faction":"Neutral",
+      "cost":1,
+      "attack":1,
+      "health":2,
+      "text":"Your other minions have +1 Attack.",
+      "artist":"Zoltan Boros",
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "multiClassGroup":"Hunter Demon Hunter",
+      "classes":[
+        "Hunter",
+        "Demon Hunter"
+      ],
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/SCH_600t3.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/SCH_600t3_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Aura"
+        }
+      ]
+    },
+    {
+      "cardId":"KAR_089",
+      "dbfId":"39740",
+      "name":"Malchezaar's Imp",
+      "cardSet":"One Night in Karazhan",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":1,
+      "health":3,
+      "text":"Whenever you discard a card, draw a card.",
+      "flavor":"Malchezaar used to have an imp named Dobby working for him, but there was a tragic accident.",
+      "artist":"Peter Stapleton",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "howToGet":"Unlocked in the Spire, in One Night in Karazhan.",
+      "howToGetGold":"Crafting unlocked in the Spire, in One Night in Karazhan.",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_089.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/KAR_089_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"SCH_600t1",
+      "dbfId":"59391",
+      "name":"Reffuh",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "cost":1,
+      "attack":2,
+      "health":1,
+      "text":"<b>Charge</b>",
+      "artist":"Zoltan Boros",
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "multiClassGroup":"Hunter Demon Hunter",
+      "classes":[
+        "Hunter",
+        "Demon Hunter"
+      ],
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/SCH_600t1.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/SCH_600t1_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Charge"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_160t",
+      "dbfId":"56851",
+      "name":"Rusted Devil",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "artist":"Matt Dixon",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BT_160t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BT_160t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_142",
+      "dbfId":"56806",
+      "name":"Shadowhoof Slayer",
+      "cardSet":"Basic",
+      "type":"Minion",
+      "rarity":"Free",
+      "cost":1,
+      "attack":2,
+      "health":1,
+      "text":"<b>Battlecry:</b> Give your hero +1_Attack this turn.",
+      "flavor":"Was a humble Elven Archer before Sargeras got to him.",
+      "artist":"A.J. Nazzaro",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_142.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_142_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"SCH_600t2",
+      "dbfId":"59392",
+      "name":"Shima",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "cost":1,
+      "attack":2,
+      "health":2,
+      "text":"<b>Taunt</b>",
+      "artist":"Zoltan Boros",
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "multiClassGroup":"Hunter Demon Hunter",
+      "classes":[
+        "Hunter",
+        "Demon Hunter"
+      ],
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/SCH_600t2.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/SCH_600t2_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"SCH_705t",
+      "dbfId":"59754",
+      "name":"Snarling Vilefiend",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "artist":"J. Axer",
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/SCH_705t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/SCH_705t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"SCH_357t",
+      "dbfId":"60165",
+      "name":"Soulfed Felhound",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":2,
+      "text":"<b>Taunt</b>",
+      "artist":"Anton Zemskov",
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/SCH_357t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/SCH_357t_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"SCH_700",
+      "dbfId":"59724",
+      "name":"Spirit Jailer",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":1,
+      "health":3,
+      "text":"<b>Battlecry:</b> Shuffle 2 Soul Fragments into your deck.",
+      "flavor":"\"Sure, they're in your deck, but the mind is like, the REAL prison.\"",
+      "artist":"Ben Olson",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "multiClassGroup":"Warlock Demon Hunter",
+      "classes":[
+        "Warlock",
+        "Demon Hunter"
+      ],
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/SCH_700.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/SCH_700_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_407",
+      "dbfId":"56739",
+      "name":"Ur'zul Horror",
+      "cardSet":"Demon Hunter Initiate",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":2,
+      "health":1,
+      "text":"<b>Deathrattle:</b> Add a 2/1 Lost Soul to your hand.",
+      "flavor":"You face face face face face Jaraxxus!",
+      "artist":"James Ryman",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_407.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_407_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"CS2_065",
+      "dbfId":"48",
+      "name":"Voidwalker",
+      "cardSet":"Basic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Free",
+      "cost":1,
+      "attack":1,
+      "health":3,
+      "text":"<b>Taunt</b>",
+      "flavor":"No relation to \"The Voidsteppers\", the popular Void-based dance troupe.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "howToGet":"Unlocked at Level 1.",
+      "howToGetGold":"Unlocked at Level 36.",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_065.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_065_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"TB_BaconUps_059t",
+      "dbfId":"57299",
+      "name":"Voidwalker",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Free",
+      "cost":1,
+      "attack":2,
+      "health":6,
+      "text":"<b>Taunt</b>",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_059t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_059t_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"GIL_608",
+      "dbfId":"47262",
+      "name":"Witchwood Imp",
+      "cardSet":"The Witchwood",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "text":"[x]<b>Stealth</b>\\n<b>Deathrattle:</b> Give a random\\n  friendly minion +2 Health.",
+      "flavor":"<i>This</i> wood imp. Stop asking!",
+      "artist":"Kerem Beyit",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_608.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_608_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        },
+        {
+          "name":"Stealth"
+        }
+      ]
+    },
+    {
+      "cardId":"ULD_324t",
+      "dbfId":"56265",
+      "name":"Worthless Imp",
+      "cardSet":"Saviors of Uldum",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/ULD_324t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ULD_324t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"EX1_317t",
+      "dbfId":"1723",
+      "name":"Worthless Imp",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "cost":1,
+      "attack":1,
+      "health":1,
+      "text":"<i>You are out of demons! At least there are always imps...</i>",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_317t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_317t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"EX1_614t",
+      "dbfId":"1751",
+      "name":"Xavian Satyr",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "cost":1,
+      "attack":2,
+      "health":1,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_614t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_614t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_307",
+      "dbfId":"56523",
+      "name":"Darkglare",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":2,
+      "attack":2,
+      "health":3,
+      "text":"After your hero takes damage, refresh a Mana_Crystal.",
+      "flavor":"He's got a dark glare, but he sees crystal clear!",
+      "artist":"Nicola Saviori",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_307.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_307_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"DALA_Warlock_HP2t",
+      "dbfId":"53298",
+      "name":"Devious Imp",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "cost":2,
+      "attack":2,
+      "health":2,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DALA_Warlock_HP2t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DALA_Warlock_HP2t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"Prologue_Felhound",
+      "dbfId":"62033",
+      "name":"Felhound",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":2,
+      "attack":2,
+      "health":1,
+      "text":"<b>Rush</b>",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/Prologue_Felhound.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/Prologue_Felhound_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Rush"
+        }
+      ]
+    },
+    {
+      "cardId":"DAL_582t2",
+      "dbfId":"52710",
+      "name":"Felhound",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "cost":2,
+      "attack":2,
+      "health":2,
+      "text":"<b>Rush</b>",
+      "artist":"Zoltan Boros",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/DAL_582t2.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/DAL_582t2_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Rush"
+        }
+      ]
+    },
+    {
+      "cardId":"LOOT_415t1t",
+      "dbfId":"46274",
+      "name":"Felhunter",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "cost":2,
+      "attack":2,
+      "health":2,
+      "artist":"Konstantin Turovec",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_415t1t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_415t1t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"EX1_306",
+      "dbfId":"592",
+      "name":"Felstalker",
+      "cardSet":"Basic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Free",
+      "cost":2,
+      "attack":4,
+      "health":3,
+      "text":"<b>Battlecry:</b> Discard a random card.",
+      "flavor":"This puppy chews up cards instead of shoes.",
+      "artist":"Alex Horley",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "howToGet":"Unlocked at Level 1.",
+      "howToGetGold":"Unlocked at Level 40.",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_306.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_306_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_352t",
+      "dbfId":"58496",
+      "name":"Illidari Satyr",
+      "cardSet":"Basic",
+      "type":"Minion",
+      "cost":2,
+      "attack":2,
+      "health":2,
+      "artist":"Zoltan Boros",
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BT_352t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BT_352t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_211",
+      "dbfId":"56482",
+      "name":"Imprisoned Felmaw",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":2,
+      "attack":5,
+      "health":4,
+      "text":"[x]<b>Dormant</b> for 2 turns.\\nWhen this awakens,\\n__attack a random enemy.",
+      "flavor":"It doesn't care who woke it up, someone's getting bitten.",
+      "artist":"James Ryman",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_211.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_211_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_305",
+      "dbfId":"56519",
+      "name":"Imprisoned Scrap Imp",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":2,
+      "attack":3,
+      "health":3,
+      "text":"<b>Dormant</b> for 2 turns.\\nWhen this awakens,\\ngive all minions in your hand +2/+1.",
+      "flavor":"His impish imports imply impressively impetuous impropriety.",
+      "artist":"Dave Allsop",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_305.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_305_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_156",
+      "dbfId":"56820",
+      "name":"Imprisoned Vilefiend",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":2,
+      "attack":3,
+      "health":5,
+      "text":"<b>Dormant</b> for 2 turns.\\n<b>Rush</b>",
+      "flavor":"If you do the time, you gotta make up the time.",
+      "artist":"Andrew Hou",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_156.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_156_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Rush"
+        }
+      ]
+    },
+    {
+      "cardId":"CFM_621_m4",
+      "dbfId":"42071",
+      "name":"Kabal Demon",
+      "cardSet":"Mean Streets of Gadgetzan",
+      "type":"Minion",
+      "faction":"Neutral",
+      "cost":2,
+      "attack":2,
+      "health":2,
+      "artist":"Slawomir Maniak",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CFM_621_m4.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CFM_621_m4_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_733",
+      "dbfId":"57193",
+      "name":"Mo'arg Artificer",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":2,
+      "attack":2,
+      "health":4,
+      "text":"All minions take double damage from spells.",
+      "flavor":"Double-damage. You know the drill.",
+      "artist":"Jim Nelson",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_733.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_733_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"UNG_829t3",
+      "dbfId":"42753",
+      "name":"Nether Imp",
+      "cardSet":"Journey to Un'Goro",
+      "type":"Minion",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "artist":"Rafael Zanchetin",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/UNG_829t3.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/UNG_829t3_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"GVG_018",
+      "dbfId":"2172",
+      "name":"Queen of Pain",
+      "cardSet":"Goblins vs Gnomes",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":2,
+      "attack":1,
+      "health":4,
+      "text":"<b>Lifesteal</b>",
+      "flavor":"Her sister is the Queen of Pane who sells windows and shower doors.",
+      "artist":"Mike Sass",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_018.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_018_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Lifesteal"
+        }
+      ]
+    },
+    {
+      "cardId":"BTA_17",
+      "dbfId":"60321",
+      "name":"Rusted Voidwalker",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":2,
+      "attack":1,
+      "health":4,
+      "text":"<b>Taunt</b>. At the start of your turn, restore 2 health to this minion.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BTA_17.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BTA_17_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_323",
+      "dbfId":"56973",
+      "name":"Sightless Watcher",
+      "cardSet":"Basic",
+      "type":"Minion",
+      "faction":"Horde",
+      "rarity":"Free",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "text":"<b>Battlecry:</b> Look at 3 cards in your deck. Choose one to put on top.",
+      "flavor":"What he lacks in sight, he makes up for in sleight-of-tentacle tricks.",
+      "artist":"Jaemin Kim",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_323.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_323_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"AT_021",
+      "dbfId":"2777",
+      "name":"Tiny Knight of Evil",
+      "cardSet":"The Grand Tournament",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":2,
+      "attack":3,
+      "health":2,
+      "text":"Whenever you discard a card, gain +1/+1.",
+      "flavor":"\"No, no, no. I asked for a tiny JESTER of evil.\"",
+      "artist":"Raymond Swanland",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_021.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_021_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"ULD_450",
+      "dbfId":"54433",
+      "name":"Vilefiend",
+      "cardSet":"Saviors of Uldum",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":2,
+      "attack":2,
+      "health":2,
+      "text":"<b>Lifesteal</b>",
+      "flavor":"Dreamed of becoming a Stylefiend, but fel was never in season.",
+      "artist":"A.J. Nazzaro",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/ULD_450.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ULD_450_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Lifesteal"
+        }
+      ]
+    },
+    {
+      "cardId":"BOT_443",
+      "dbfId":"48835",
+      "name":"Void Analyst",
+      "cardSet":"The Boomsday Project",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Rare",
+      "cost":2,
+      "attack":2,
+      "health":2,
+      "text":"<b>Deathrattle:</b> Give all Demons in your hand +1/+1.",
+      "flavor":"Conclusion: Nothing there.",
+      "artist":"Arthur Bozonnet",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_443.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_443_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"LOOT_013",
+      "dbfId":"43121",
+      "name":"Vulgar Homunculus",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":2,
+      "attack":2,
+      "health":4,
+      "text":"<b>Taunt</b>\\n<b>Battlecry:</b> Deal 2 damage to your hero.",
+      "flavor":"Fortunately he has an even number of fingers.",
+      "artist":"Steve Prescott",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_013.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_013_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        },
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"TB_BaconUps_148",
+      "dbfId":"63778",
+      "name":"Vulgar Homunculus",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":2,
+      "attack":4,
+      "health":8,
+      "text":"<b>Taunt</b>\\n<b>Battlecry:</b> Deal 2 damage to your hero.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_148.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_148_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        },
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"AT_026",
+      "dbfId":"2623",
+      "name":"Wrathguard",
+      "cardSet":"The Grand Tournament",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":2,
+      "attack":4,
+      "health":3,
+      "text":"Whenever this minion takes damage, also deal that amount to your hero.",
+      "flavor":"After playing against 5 Annoy-O-Trons, any normal guard will become a Wrathguard.",
+      "artist":"Sojin Hwang",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_026.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_026_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"YOD_027",
+      "dbfId":"56114",
+      "name":"Chaos Gazer",
+      "cardSet":"Galakrond's Awakening",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Epic",
+      "cost":3,
+      "attack":4,
+      "health":3,
+      "text":"[x]<b>Battlecry:</b> Corrupt a\\nplayable card in your\\nopponent's hand. They\\nhave 1 turn to play it!",
+      "flavor":"No matter the game rules, it's always playing Go Fish.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/YOD_027.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/YOD_027_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BOT_224",
+      "dbfId":"48116",
+      "name":"Doubling Imp",
+      "cardSet":"The Boomsday Project",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":3,
+      "attack":2,
+      "health":2,
+      "text":"<b>Battlecry:</b> Summon a copy of this minion.",
+      "flavor":"What's worse than finding two imps in your lab? Only finding one of them.",
+      "artist":"Dave Allsop",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_224.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_224_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"EX1_301",
+      "dbfId":"517",
+      "name":"Felguard",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":3,
+      "health":5,
+      "text":"<b>Taunt</b>\\n<b>Battlecry:</b> Destroy one of your Mana Crystals.",
+      "flavor":"Yes, he'll fight for you.  BUT HE'S NOT GOING TO LIKE IT.",
+      "artist":"John Polidora",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_301.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_301_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"LOOT_415t2t",
+      "dbfId":"46036",
+      "name":"Felhunter",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "artist":"Konstantin Turovec",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_415t2t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_415t2t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_SPT_DPromoMinionInit",
+      "dbfId":"42512",
+      "name":"Hell Bovine",
+      "cardSet":"Tavern Brawl",
+      "type":"Minion",
+      "cost":3,
+      "attack":2,
+      "health":2,
+      "text":"<b>Deathrattle:</b> Place a copy of this card in your deck.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoMinionInit.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoMinionInit_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        },
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"TB_SPT_DPromoMinion",
+      "dbfId":"42158",
+      "name":"Hell Bovine",
+      "cardSet":"Tavern Brawl",
+      "type":"Minion",
+      "cost":3,
+      "attack":2,
+      "health":2,
+      "text":"<b>Deathrattle:</b> Place a copy of this card in your deck.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoMinion.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoMinion_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"ICC_218",
+      "dbfId":"42642",
+      "name":"Howlfiend",
+      "cardSet":"Knights of the Frozen Throne",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":3,
+      "attack":3,
+      "health":6,
+      "text":"Whenever this minion takes damage, discard a_random card.",
+      "flavor":"The problem is that he carries those cards in his mouth.",
+      "artist":"Konstantin Turovec",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_218.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_218_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BRM_006",
+      "dbfId":"2288",
+      "name":"Imp Gang Boss",
+      "cardSet":"Blackrock Mountain",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":3,
+      "attack":2,
+      "health":4,
+      "text":"Whenever this minion takes damage, summon a 1/1 Imp.",
+      "flavor":"His imp gang likes to sneak into Stormwind to spraypaint \"Ragnaros Rulez\" on the Mage Tower.",
+      "artist":"Steve Prescott",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "howToGet":"Unlocked in Molten Core, in the Blackrock Mountain adventure.",
+      "howToGetGold":"Crafting unlocked in Molten Core, in the Blackrock Mountain adventure.",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BRM_006.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BRM_006_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_BaconUps_030",
+      "dbfId":"58372",
+      "name":"Imp Gang Boss",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":3,
+      "attack":4,
+      "health":8,
+      "text":"Whenever this minion takes damage, summon a 2/2 Imp.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_030.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_030_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"WE1_015",
+      "dbfId":"58582",
+      "name":"Imp Gang Boss",
+      "cardSet":"Wild Event",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":3,
+      "attack":2,
+      "health":4,
+      "text":"Whenever this minion takes damage, summon a 1/1 Imp.",
+      "flavor":"His imp gang likes to sneak into Stormwind to spraypaint \"Ragnaros Rulez\" on the Mage Tower.",
+      "artist":"Steve Prescott",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/WE1_015.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/WE1_015_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_004",
+      "dbfId":"56387",
+      "name":"Imprisoned Observer",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":4,
+      "health":5,
+      "text":"<b>Dormant</b> for 2 turns.\\nWhen this awakens,\\ndeal 2 damage to all\\nenemy minions.",
+      "flavor":"Currently serving two turns on charges of aggravated minion slaughter.",
+      "artist":"Melvin Chan",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Mage",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_004.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_004_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_127",
+      "dbfId":"56676",
+      "name":"Imprisoned Satyr",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"[x]<b>Dormant</b> for 2 turns.\\nWhen this awakens, reduce\\nthe Cost of a random minion\\nin your hand by (5).",
+      "flavor":"\"C'mon down to Illhoof's bargain bin! When the satyr's free, he'll lower your fee!\"",
+      "artist":"Mike Sass",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Druid",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_127.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_127_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_BaconUps_113",
+      "dbfId":"60676",
+      "name":"Imprisoner",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":6,
+      "health":6,
+      "text":"<b>Taunt</b>\\n<b>Deathrattle:</b> Summon a 2/2 Imp.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_113.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_113_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"BGS_014",
+      "dbfId":"59937",
+      "name":"Imprisoner",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"<b>Taunt</b>\\n<b>Deathrattle:</b> Summon a 1/1 Imp.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BGS_014.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BGS_014_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"BGS_001",
+      "dbfId":"59186",
+      "name":"Nathrezim Overseer",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":2,
+      "health":3,
+      "text":"<b>Battlecry:</b> Give a friendly Demon +2/+2.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BGS_001.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BGS_001_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"TB_BaconUps_062",
+      "dbfId":"59487",
+      "name":"Nathrezim Overseer",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":4,
+      "health":6,
+      "text":"<b>Battlecry:</b> Give a friendly Demon +4/+4.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_062.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_062_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BOT_226",
+      "dbfId":"48298",
+      "name":"Nethersoul Buster",
+      "cardSet":"The Boomsday Project",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":1,
+      "health":5,
+      "text":"<b>Battlecry:</b> Gain +1 Attack for each damage your hero has taken this turn.",
+      "flavor":"Why did the demon cross the streams? To get to The Other Side.",
+      "artist":"Nicola Saviori",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BOT_226.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BOT_226_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_352",
+      "dbfId":"58489",
+      "name":"Satyr Overseer",
+      "cardSet":"Basic",
+      "type":"Minion",
+      "rarity":"Free",
+      "cost":3,
+      "attack":4,
+      "health":2,
+      "text":"After your hero attacks, summon a 2/2 Satyr.",
+      "flavor":"What he lacks in communication skills, he makes up for with highly responsive staffing allocations.",
+      "artist":"Zoltan Boros",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_352.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_352_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"CFM_039",
+      "dbfId":"40213",
+      "name":"Street Trickster",
+      "cardSet":"Mean Streets of Gadgetzan",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":3,
+      "attack":0,
+      "health":7,
+      "text":"<b>Spell Damage +1</b>",
+      "flavor":"His first trick: making your wallet disappear!",
+      "artist":"Daria Tuzova",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_039.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_039_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Spell Damage"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_159",
+      "dbfId":"56823",
+      "name":"Terrorguard Escapee",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":3,
+      "attack":3,
+      "health":7,
+      "text":"<b>Battlecry:</b> Summon three 1/1 Huntresses for your_opponent.",
+      "flavor":"Poor guy is terrified, look at his faces.",
+      "artist":"Mauricio Herrera",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_159.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_159_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"CFM_900",
+      "dbfId":"40598",
+      "name":"Unlicensed Apothecary",
+      "cardSet":"Mean Streets of Gadgetzan",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":3,
+      "attack":5,
+      "health":5,
+      "text":"After you summon a minion, deal 5 damage to_your hero.",
+      "flavor":"Get the ingredients wrong on ONE healing potion and they take your license. What a world!",
+      "artist":"Jon Neimeister",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_900.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_900_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"LOOT_529",
+      "dbfId":"46461",
+      "name":"Void Ripper",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"<b>Battlecry:</b> Swap the\\nAttack and Health of all_other_minions.",
+      "flavor":"You had to put the portable hole inside the bag of holding, didn't you?!",
+      "artist":"Slawomir Maniak",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_529.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_529_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"EX1_304",
+      "dbfId":"1221",
+      "name":"Void Terror",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":3,
+      "attack":3,
+      "health":3,
+      "text":"[x]<b>Battlecry:</b> Destroy both\\nadjacent minions and gain\\n their Attack and Health.",
+      "flavor":"If you put this into your deck, you WILL lose the trust of your other minions.",
+      "artist":"Alex Alexandrov",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_304.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_304_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_728",
+      "dbfId":"57188",
+      "name":"Disguised Wanderer",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":4,
+      "attack":3,
+      "health":3,
+      "text":"<b>Deathrattle:</b> Summon a 9/1 Inquisitor.",
+      "flavor":"He wanders east... always into the east.",
+      "artist":"Ben Olson",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_728.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_728_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"AT_019",
+      "dbfId":"2822",
+      "name":"Dreadsteed",
+      "cardSet":"The Grand Tournament",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":4,
+      "attack":1,
+      "health":1,
+      "text":"<b>Deathrattle:</b> At the end\\n of the turn, summon a Dreadsteed.",
+      "flavor":"Crescendo himself summoned this steed, riding it to victory in the Grand Tournament.  Wherever he rides, an army of riders ride behind him, supporting the legendary champion.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_019.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_019_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"LOOT_415t3t",
+      "dbfId":"46275",
+      "name":"Felhunter",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "cost":4,
+      "attack":4,
+      "health":4,
+      "artist":"Konstantin Turovec",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_415t3t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_415t3t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"GIL_527",
+      "dbfId":"46991",
+      "name":"Felsoul Inquisitor",
+      "cardSet":"The Witchwood",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":4,
+      "attack":1,
+      "health":6,
+      "text":"<b>Lifesteal</b>\\n<b>Taunt</b>",
+      "flavor":"Everyone expects an inquisition reference.",
+      "artist":"Slawomir Maniak",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_527.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_527_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Lifesteal"
+        }
+      ]
+    },
+    {
+      "cardId":"YOD_032",
+      "dbfId":"56122",
+      "name":"Frenzied Felwing",
+      "cardSet":"Galakrond's Awakening",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":4,
+      "attack":3,
+      "health":2,
+      "text":"Costs (1) less for each damage dealt to your opponent this turn.",
+      "flavor":"Not to be confused with the \"friendsy\u201d felwing.",
+      "artist":"Nicola Saviori",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/YOD_032.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/YOD_032_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"LOOT_018",
+      "dbfId":"43133",
+      "name":"Hooked Reaver",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":4,
+      "attack":4,
+      "health":4,
+      "text":"<b>Battlecry:</b> If you have 15 or_less Health, gain +3/+3_and <b>Taunt</b>.",
+      "flavor":"The hook is just an accessory. He can reave just fine without it.",
+      "artist":"A. J. Nazzaro",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_018.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_018_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        },
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"KARA_09_08",
+      "dbfId":"39864",
+      "name":"Kil'rek",
+      "cardSet":"One Night in Karazhan",
+      "type":"Minion",
+      "cost":4,
+      "attack":2,
+      "health":6,
+      "text":"<b>Taunt</b>",
+      "artist":"Jesper Ejsing",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_09_08.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_09_08_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"KARA_09_08_heroic",
+      "dbfId":"40329",
+      "name":"Kil'rek",
+      "cardSet":"One Night in Karazhan",
+      "type":"Minion",
+      "cost":4,
+      "attack":4,
+      "health":8,
+      "text":"<b>Taunt</b>",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_09_08_heroic.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_09_08_heroic_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"UNG_833",
+      "dbfId":"41873",
+      "name":"Lakkari Felhound",
+      "cardSet":"Journey to Un'Goro",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":4,
+      "attack":3,
+      "health":8,
+      "text":"<b>Taunt</b>\\n<b>Battlecry:</b> Discard two random cards.",
+      "flavor":"Guaranteed to track tar all over your carpet.",
+      "artist":"Dave Allsop",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/UNG_833.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/UNG_833_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        },
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_850",
+      "dbfId":"58549",
+      "name":"Magtheridon",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":4,
+      "attack":12,
+      "health":12,
+      "text":"[x]<b>Dormant</b>. <b>Battlecry:</b> Summon\\nthree 1/3 enemy Warders.\\nWhen they die, destroy all\\nminions and awaken.",
+      "flavor":"Came from another world to invade Outland and bend it to his will\u2026 only to be overthrown by an elf from another world who invaded Outland and bent it to his will.",
+      "artist":"Slawomir Maniak",
+      "collectible":true,
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_850.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_850_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_301",
+      "dbfId":"56502",
+      "name":"Nightshade Matron",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":4,
+      "attack":5,
+      "health":5,
+      "text":"<b>Rush</b>\\n<b>Battlecry:</b> Discard your highest Cost card.",
+      "flavor":"Throws shade at those \"high-cost\" minions.",
+      "artist":"MAR Studio",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_301.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_301_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Rush"
+        },
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"EX1_313",
+      "dbfId":"783",
+      "name":"Pit Lord",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Epic",
+      "cost":4,
+      "attack":5,
+      "health":6,
+      "text":"<b>Battlecry:</b> Deal 5 damage to your hero.",
+      "flavor":"Mannoroth, Magtheridon, and Brutallus may be dead, but it turns out there are a LOT of pit lords.",
+      "artist":"Glenn Rane",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_313.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_313_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"DAL_582",
+      "dbfId":"52707",
+      "name":"Portal Keeper",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":4,
+      "attack":5,
+      "health":2,
+      "text":"[x]<b>Battlecry:</b> Shuffle 3 Portals\\ninto your deck. When drawn,\\nsummon a 2/2 Demon\\nwith <b>Rush</b>.",
+      "flavor":"No longer allowed to be \u201cit\u201d when playing demon tag.",
+      "artist":"Nicola Saviori",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/DAL_582.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DAL_582_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        },
+        {
+          "name":"Rush"
+        }
+      ]
+    },
+    {
+      "cardId":"BTA_12",
+      "dbfId":"60133",
+      "name":"Rusted Legion Gan'arg",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":4,
+      "attack":3,
+      "health":5,
+      "text":"At the end of your turn, reduce the Cost of a random card in your hand by (3).",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BTA_12.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BTA_12_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_728t",
+      "dbfId":"57903",
+      "name":"Rustsworn Inquisitor",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":4,
+      "attack":9,
+      "health":1,
+      "artist":"Ben Olson",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BT_728t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BT_728t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"LOOT_136",
+      "dbfId":"43493",
+      "name":"Sneaky Devil",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "faction":"Alliance",
+      "rarity":"Common",
+      "cost":4,
+      "attack":2,
+      "health":2,
+      "text":"<b>Stealth</b>\\nYour other minions have +1 Attack.",
+      "flavor":"The result of a tragic accident involving a Defias Thug, a Wand of Polymorph, and a bundle of Fel Lotus.",
+      "artist":"Ivan Fomin",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_136.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_136_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Stealth"
+        }
+      ]
+    },
+    {
+      "cardId":"TOT_204",
+      "dbfId":"50706",
+      "name":"Timeshift: Dreadsteed",
+      "cardSet":"Tavern Brawl",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":4,
+      "attack":1,
+      "health":1,
+      "text":"<b>Deathrattle:</b> Summon a Dreadsteed.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TOT_204.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TOT_204_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"FP1_022",
+      "dbfId":"1806",
+      "name":"Voidcaller",
+      "cardSet":"Naxxramas",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":4,
+      "attack":3,
+      "health":4,
+      "text":"<b>Deathrattle:</b> Put a random Demon from your hand into the battlefield.",
+      "flavor":"\"Void!  Here, void!  Here, buddy!\"",
+      "artist":"Robb Shoberg",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "howToGet":"Unlocked in The Military Quarter, in the Naxxramas adventure.",
+      "howToGetGold":"Crafting unlocked in The Military Quarter, in the Naxxramas adventure.",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/FP1_022.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/FP1_022_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"GIL_584",
+      "dbfId":"47142",
+      "name":"Witchwood Piper",
+      "cardSet":"The Witchwood",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":4,
+      "attack":3,
+      "health":3,
+      "text":"[x]<b>Battlecry:</b> Draw the lowest\\nCost minion from your deck.",
+      "flavor":"She rids villages of annoying pests, like rats and children.",
+      "artist":"Ursula Dorada",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/GIL_584.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GIL_584_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_304t",
+      "dbfId":"57702",
+      "name":"Desperate Dreadlord",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":5,
+      "attack":5,
+      "health":5,
+      "text":"<b>Lifesteal</b>",
+      "artist":"Anton Zemskov",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BT_304t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BT_304t_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Lifesteal"
+        }
+      ]
+    },
+    {
+      "cardId":"ICC_075",
+      "dbfId":"42743",
+      "name":"Despicable Dreadlord",
+      "cardSet":"Knights of the Frozen Throne",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":5,
+      "attack":4,
+      "health":5,
+      "text":"At the end of your turn, deal 1 damage to all enemy minions.",
+      "flavor":"He's deathspicable.",
+      "artist":"Konstantin Turovec",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/ICC_075.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ICC_075_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"EX1_310",
+      "dbfId":"631",
+      "name":"Doomguard",
+      "cardSet":"Hall of Fame",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Rare",
+      "cost":5,
+      "attack":5,
+      "health":7,
+      "text":"<b>Charge</b>. <b>Battlecry:</b> Discard two random cards.",
+      "flavor":"Summoning a doomguard is risky. <i>Someone</i> is going to die.",
+      "artist":"Lucas Graciano",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_310.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_310_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Charge"
+        },
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"ULD_162t",
+      "dbfId":"54076",
+      "name":"EVIL Demon",
+      "cardSet":"Saviors of Uldum",
+      "type":"Minion",
+      "cost":5,
+      "attack":5,
+      "health":5,
+      "artist":"Zoltan Boros",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/ULD_162t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/ULD_162t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"LOOT_415t4t",
+      "dbfId":"46276",
+      "name":"Felhunter",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "cost":5,
+      "attack":5,
+      "health":5,
+      "artist":"Konstantin Turovec",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_415t4t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_415t4t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"GVG_100",
+      "dbfId":"2068",
+      "name":"Floating Watcher",
+      "cardSet":"Goblins vs Gnomes",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":5,
+      "attack":4,
+      "health":4,
+      "text":"Whenever your hero takes damage on your turn, gain +2/+2.",
+      "flavor":"\"Evil Eye Watcher of Doom\" was the original name, but marketing felt it was a bit too aggressive.",
+      "artist":"Todd Lockwood",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_100.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_100_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_BaconUps_101",
+      "dbfId":"60403",
+      "name":"Floating Watcher",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":5,
+      "attack":8,
+      "health":8,
+      "text":"Whenever your hero takes damage on your turn, gain +4/+4.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_101.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_101_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_SPT_DPromoMinionChamp",
+      "dbfId":"42225",
+      "name":"Hell Bovine Champion",
+      "cardSet":"Tavern Brawl",
+      "type":"Minion",
+      "cost":5,
+      "attack":4,
+      "health":4,
+      "text":"<b>Deathrattle:</b> Current turn player gains a random weapon.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_SPT_DPromoMinionChamp.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_SPT_DPromoMinionChamp_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"CFM_621_m2",
+      "dbfId":"42063",
+      "name":"Kabal Demon",
+      "cardSet":"Mean Streets of Gadgetzan",
+      "type":"Minion",
+      "faction":"Neutral",
+      "cost":5,
+      "attack":5,
+      "health":5,
+      "artist":"Slawomir Maniak",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CFM_621_m2.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CFM_621_m2_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"KAR_096",
+      "dbfId":"39840",
+      "name":"Prince Malchezaar",
+      "cardSet":"One Night in Karazhan",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":5,
+      "attack":5,
+      "health":6,
+      "text":"[x]<b>Start of Game:</b>\\nAdd 5 extra <b>Legendary</b>\\nminions to your deck.",
+      "flavor":"He was super excited to acquire Gorehowl at a garage sale!\u00a0 Then super disappointed to find out it was a foam reproduction.",
+      "artist":"Joe Madureira & Grace Liu",
+      "collectible":true,
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "howToGet":"Unlocked in the Spire, in One Night in Karazhan.",
+      "howToGetGold":"Crafting unlocked in the Spire, in One Night in Karazhan.",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/KAR_096.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/KAR_096_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"SCH_343",
+      "dbfId":"59192",
+      "name":"Void Drinker",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":5,
+      "attack":4,
+      "health":5,
+      "text":"[x]<b>Taunt</b>. <b>Battlecry:</b> Destroy\\na Soul Fragment in your\\ndeck to gain +3/+3.",
+      "flavor":"It has no taste.",
+      "artist":"Slawomir Maniak",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/SCH_343.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/SCH_343_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        },
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_510",
+      "dbfId":"59865",
+      "name":"Wrathspike Brute",
+      "cardSet":"Demon Hunter Initiate",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":5,
+      "attack":2,
+      "health":6,
+      "text":"[x]<b>Taunt</b>\\nAfter this is attacked,\\ndeal 1 damage to\\nall enemies.",
+      "flavor":"You scratch her back, her back scratches back.",
+      "artist":"Vladimir Kafanov",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_510.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_510_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"KARA_00_02a",
+      "dbfId":"39754",
+      "name":"Abyssal",
+      "cardSet":"One Night in Karazhan",
+      "type":"Minion",
+      "cost":6,
+      "attack":6,
+      "health":6,
+      "artist":"Mike Sass",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/KARA_00_02a.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/KARA_00_02a_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"DAL_185",
+      "dbfId":"52058",
+      "name":"Aranasi Broodmother",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Common",
+      "cost":6,
+      "attack":4,
+      "health":6,
+      "text":"[x]<b>Taunt</b>\\nWhen you draw this, restore\\n#4 Health to your hero.",
+      "flavor":"She's got a big brood and a big mood.",
+      "artist":"Slawomir Maniak",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/DAL_185.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DAL_185_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"CRED_48",
+      "dbfId":"45401",
+      "name":"Christian Scharling",
+      "cardSet":"Credits",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":6,
+      "attack":6,
+      "health":6,
+      "text":"<b>Battlecry:</b> Rearrange \\n your minions to be \\n more effective.",
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CRED_48.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CRED_48_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"CS2_064",
+      "dbfId":"1019",
+      "name":"Dread Infernal",
+      "cardSet":"Basic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Free",
+      "cost":6,
+      "attack":6,
+      "health":6,
+      "text":"<b>Battlecry:</b> Deal 1 damage to ALL other characters.",
+      "flavor":"\"INFERNOOOOOOOOOO!\" - Jaraxxus, Eredar Lord of the Burning Legion",
+      "artist":"Zoltan & Gabor",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "howToGet":"Unlocked at Level 10.",
+      "howToGetGold":"Unlocked at Level 23.",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/CS2_064.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CS2_064_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"LOOT_415t5t",
+      "dbfId":"46277",
+      "name":"Felhunter",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "cost":6,
+      "attack":6,
+      "health":6,
+      "artist":"Konstantin Turovec",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_415t5t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_415t5t_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_934",
+      "dbfId":"56649",
+      "name":"Imprisoned Antaen",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":6,
+      "attack":10,
+      "health":6,
+      "text":"[x]<b>Dormant</b> for 2 turns.\\nWhen this awakens, deal\\n10 damage randomly split\\namong all enemies.",
+      "flavor":"Can I get a pair of size XXXXXL manacles?",
+      "artist":"Rafael Zanchetin",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_934.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_934_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"EX1_tk34",
+      "dbfId":"1143",
+      "name":"Infernal",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "cost":6,
+      "attack":6,
+      "health":6,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/EX1_tk34.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/EX1_tk34_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"DAL_751",
+      "dbfId":"52950",
+      "name":"Mad Summoner",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "faction":"Alliance",
+      "rarity":"Rare",
+      "cost":6,
+      "attack":4,
+      "health":4,
+      "text":"[x]<b>Battlecry:</b> Fill each player's\\nboard with 1/1 Imps.",
+      "flavor":"Does he summon because of his madness, or is he mad from all the summoning?",
+      "artist":"Konstantin Turovec",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/DAL_751.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DAL_751_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"DAL_565",
+      "dbfId":"52486",
+      "name":"Portal Overfiend",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":6,
+      "attack":5,
+      "health":6,
+      "text":"[x]<b>Battlecry:</b> Shuffle 3 Portals\\ninto your deck. When drawn,\\nsummon a 2/2 Demon\\nwith <b>Rush</b>.",
+      "flavor":"It\u2019s like an interdimensional game of demon tag.",
+      "artist":"Nicola Saviori",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/DAL_565.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DAL_565_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        },
+        {
+          "name":"Rush"
+        }
+      ]
+    },
+    {
+      "cardId":"ULD_165",
+      "dbfId":"53887",
+      "name":"Riftcleaver",
+      "cardSet":"Saviors of Uldum",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":6,
+      "attack":7,
+      "health":5,
+      "text":"<b>Battlecry:</b> Destroy a minion. Your hero takes damage equal to its Health.",
+      "flavor":"Brings you face to face with your destructive impulses.",
+      "artist":"Nicola Saviori",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/ULD_165.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/ULD_165_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BTA_11",
+      "dbfId":"60119",
+      "name":"Rustsworn Champion",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":6,
+      "attack":5,
+      "health":7,
+      "text":"[x]<b>Charge</b>. <b>Battlecry:</b> Corrupt\\na_playable card in your\\nopponent's hand. They\\nhave 1 turn to play it!",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BTA_11.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BTA_11_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Charge"
+        },
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_732",
+      "dbfId":"57192",
+      "name":"Scavenging Shivarra",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":6,
+      "attack":6,
+      "health":3,
+      "text":"<b>Battlecry:</b> Deal 6 damage randomly split among all_other minions.",
+      "flavor":"Say what you want but finding a matching set of six swords takes commitment.",
+      "artist":"Konstantin Turovec",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_732.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_732_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"AT_023",
+      "dbfId":"2537",
+      "name":"Void Crusher",
+      "cardSet":"The Grand Tournament",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":6,
+      "attack":5,
+      "health":4,
+      "text":"<b>Inspire:</b> Destroy a random minion for each player.",
+      "flavor":"We like to call him \"Wesley\".",
+      "artist":"Skan Srisuwan",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_023.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_023_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Inspire"
+        }
+      ]
+    },
+    {
+      "cardId":"EX1_614",
+      "dbfId":"556",
+      "name":"Xavius",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "faction":"Neutral",
+      "rarity":"Legendary",
+      "cost":6,
+      "attack":7,
+      "health":5,
+      "text":"After you play a card, summon a 2/1 Satyr.",
+      "flavor":"Xavius has grand nightmares of summoning Sargeras into this world, but a few Satyr will have to do for now.",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_614.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_614_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"CFM_751",
+      "dbfId":"40541",
+      "name":"Abyssal Enforcer",
+      "cardSet":"Mean Streets of Gadgetzan",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":7,
+      "attack":6,
+      "health":6,
+      "text":"<b>Battlecry:</b> Deal 3 damage to all other characters.",
+      "flavor":"The Kabal print this on every package of illicit Mana Crystals: WARNING - DO NOT PUT WITHIN REACH OF ABYSSALS. THIS IS NOT APPROVED FOR USE BY FLAMING DEMONS OF ANY KIND.",
+      "artist":"Luke Mancini",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_751.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_751_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"AT_020",
+      "dbfId":"2624",
+      "name":"Fearsome Doomguard",
+      "cardSet":"The Grand Tournament",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":7,
+      "attack":6,
+      "health":8,
+      "flavor":"They were originally called Cuddleguards, but they were not inspiring the proper amount of fear.",
+      "artist":"Anton Zemskov",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/AT_020.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/AT_020_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BGS_059",
+      "dbfId":"61059",
+      "name":"Master Demonologist",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "cost":7,
+      "attack":4,
+      "health":6,
+      "text":"Whenever you summon a Demon, gain +1/+1.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BGS_059.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BGS_059_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_BaconUps_119",
+      "dbfId":"61081",
+      "name":"Master Demonologist",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "cost":7,
+      "attack":8,
+      "health":12,
+      "text":"Whenever you summon a Demon, gain +2/+2.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_119.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_119_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_493",
+      "dbfId":"58455",
+      "name":"Priestess of Fury",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":7,
+      "attack":6,
+      "health":5,
+      "text":"At the end of your turn, deal 6 damage randomly split among all enemies.",
+      "flavor":"Furious that she only has six warglaives. The Sightless Watcher has eight! The fel is always greener on the other side.",
+      "artist":"Bayard Wu",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_493.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_493_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"TB_BaconUps_053",
+      "dbfId":"58418",
+      "name":"Siegebreaker",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":7,
+      "attack":10,
+      "health":16,
+      "text":"<b>Taunt</b>\\nYour other Demons have +2 Attack.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_053.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_053_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Aura"
+        }
+      ]
+    },
+    {
+      "cardId":"EX1_185",
+      "dbfId":"54835",
+      "name":"Siegebreaker",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":7,
+      "attack":5,
+      "health":8,
+      "text":"<b>Taunt</b>\\nYour other Demons have +1 Attack.",
+      "flavor":"Has a side hustle as a siegebroker.",
+      "artist":"James Ryman",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_185.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_185_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Aura"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_028t",
+      "dbfId":"56718",
+      "name":"Solarian Prime",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":7,
+      "attack":7,
+      "health":7,
+      "text":"<b>Spell Damage +1</b>\\n<b>Battlecry:</b> Cast 5 random Mage spells <i>(targets enemies if possible)</i>.",
+      "artist":"Arthur Gimaldinov",
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Mage",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BT_028t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BT_028t_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Spell Damage"
+        },
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BGS_010",
+      "dbfId":"59714",
+      "name":"Annihilan Battlemaster",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":8,
+      "attack":3,
+      "health":1,
+      "text":"<b>Battlecry:</b> Gain +1 Health for each damage_your hero has taken.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BGS_010.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BGS_010_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"TB_BaconUps_083",
+      "dbfId":"59716",
+      "name":"Annihilan Battlemaster",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":8,
+      "attack":6,
+      "health":2,
+      "text":"<b>Battlecry:</b> Gain +2 Health for each damage_your hero has taken.",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_083.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_083_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_304",
+      "dbfId":"56516",
+      "name":"Enhanced Dreadlord",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":8,
+      "attack":5,
+      "health":7,
+      "text":"[x]<b>Taunt</b>\\n<b>Deathrattle:</b> Summon a 5/5\\nDreadlord with <b>Lifesteal</b>.",
+      "flavor":"Photo actually taken across the street in the reflection of a doorknob.",
+      "artist":"Anton Zemskov",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_304.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_304_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Deathrattle"
+        },
+        {
+          "name":"Lifesteal"
+        }
+      ]
+    },
+    {
+      "cardId":"DAL_607",
+      "dbfId":"52873",
+      "name":"Fel Lord Betrug",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":8,
+      "attack":5,
+      "health":7,
+      "text":"[x]Whenever you draw a\\nminion, summon a copy\\n with <b>Rush</b> that dies at\\nend of turn.",
+      "flavor":"Nobody else likes rush hour.",
+      "artist":"Nicola Saviori",
+      "collectible":true,
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/DAL_607.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DAL_607_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Rush"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_487",
+      "dbfId":"58244",
+      "name":"Hulking Overfiend",
+      "cardSet":"Demon Hunter Initiate",
+      "type":"Minion",
+      "rarity":"Rare",
+      "cost":8,
+      "attack":5,
+      "health":10,
+      "text":"<b>Rush</b>. After this attacks and kills a minion, it may_attack again.",
+      "flavor":"To hulk, perhaps, to fiend: ay, there's the rub.",
+      "artist":"Bayard Wu",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_487.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_487_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Rush"
+        }
+      ]
+    },
+    {
+      "cardId":"BGS_044",
+      "dbfId":"61028",
+      "name":"Imp Mama",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "cost":8,
+      "attack":6,
+      "health":10,
+      "text":"[x]Whenever this minion takes\\ndamage, summon a random\\nDemon and give it <b>Taunt</b>.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BGS_044.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BGS_044_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"TB_BaconUps_116",
+      "dbfId":"61043",
+      "name":"Imp Mama",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "cost":8,
+      "attack":12,
+      "health":20,
+      "text":"[x]Whenever this minion\\ntakes damage, summon\\n2 random Demons and\\ngive them <b>Taunt</b>.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_116.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_116_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"CFM_621_m3",
+      "dbfId":"42064",
+      "name":"Kabal Demon",
+      "cardSet":"Mean Streets of Gadgetzan",
+      "type":"Minion",
+      "faction":"Neutral",
+      "cost":8,
+      "attack":8,
+      "health":8,
+      "artist":"Slawomir Maniak",
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/CFM_621_m3.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/CFM_621_m3_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"BT_309t",
+      "dbfId":"57155",
+      "name":"Kanrethad Prime",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "cost":8,
+      "attack":7,
+      "health":6,
+      "text":"<b>Battlecry:</b> Summon 3 friendly Demons that died_this game.",
+      "artist":"Rafael Zanchetin",
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/BT_309t.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/BT_309t_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_734",
+      "dbfId":"57194",
+      "name":"Supreme Abyssal",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Common",
+      "cost":8,
+      "attack":12,
+      "health":12,
+      "text":"Can't attack heroes.",
+      "flavor":"Yet, you still feel attacked.",
+      "artist":"Clint Langley",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_734.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_734_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"SCH_354",
+      "dbfId":"60143",
+      "name":"Ancient Void Hound",
+      "cardSet":"Scholomance Academy",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":9,
+      "attack":10,
+      "health":10,
+      "text":"[x]At the end of your turn,\\nsteal 1 Attack and Health\\nfrom all enemy minions.",
+      "flavor":"What happened to my 1/1 Void Pup? And the glee club?!",
+      "artist":"Jaemin Kim",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/SCH_354.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/SCH_354_premium.gif",
+      "locale":"enUS"
+    },
+    {
+      "cardId":"CFM_750",
+      "dbfId":"40537",
+      "name":"Krul the Unshackled",
+      "cardSet":"Mean Streets of Gadgetzan",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":9,
+      "attack":7,
+      "health":9,
+      "text":"[x]<b>Battlecry:</b> If your deck has\\nno duplicates, summon all\\n_Demons from your hand._",
+      "flavor":"Spicklefizz pondered his life choices as he looked at the chain around his neck. \"Become a warlock,\" they said. \"You get to enslave demons,\" they said.",
+      "artist":"James Ryman",
+      "collectible":true,
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/CFM_750.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/CFM_750_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"EX1_323",
+      "dbfId":"777",
+      "name":"Lord Jaraxxus",
+      "cardSet":"Classic",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":9,
+      "attack":3,
+      "health":15,
+      "text":"<b>Battlecry:</b> Destroy your hero and replace it with Lord Jaraxxus.",
+      "flavor":"\"TRIFLING GNOME! YOUR ARROGANCE WILL BE YOUR UNDOING!!!!\"",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/EX1_323.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/EX1_323_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"GVG_021",
+      "dbfId":"1986",
+      "name":"Mal'Ganis",
+      "cardSet":"Goblins vs Gnomes",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":9,
+      "attack":9,
+      "health":7,
+      "text":"Your other Demons have +2/+2.\\nYour hero is <b>Immune</b>.",
+      "flavor":"Mal'Ganis doesn't like being betrayed, so if you discard him, watch out.",
+      "artist":"Wayne Reynolds",
+      "collectible":true,
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/GVG_021.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/GVG_021_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Aura"
+        }
+      ]
+    },
+    {
+      "cardId":"TB_BaconUps_060",
+      "dbfId":"58428",
+      "name":"Mal'Ganis",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":9,
+      "attack":18,
+      "health":14,
+      "text":"Your other Demons have +4/+4.\\nYour hero is <b>Immune</b>.",
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_060.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_060_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Aura"
+        }
+      ]
+    },
+    {
+      "cardId":"BT_486",
+      "dbfId":"58243",
+      "name":"Pit Commander",
+      "cardSet":"Ashes of Outland",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":9,
+      "attack":7,
+      "health":9,
+      "text":"<b>Taunt</b>\\nAt the end of your turn, summon a Demon from your deck.",
+      "flavor":"\"Pit! Do as I say!\"",
+      "artist":"Ludo Lullabi",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Demon Hunter",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/BT_486.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/BT_486_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        }
+      ]
+    },
+    {
+      "cardId":"DRG_402",
+      "dbfId":"56189",
+      "name":"Sathrovarr",
+      "cardSet":"Descent of Dragons",
+      "type":"Minion",
+      "rarity":"Legendary",
+      "cost":9,
+      "attack":5,
+      "health":5,
+      "text":"<b>Battlecry:</b> Choose a friendly minion. Add a copy of it to_your hand, deck, and battlefield.",
+      "flavor":"Just wait until you also find a copy in your pocket. And your desk! And your FRIDGE!!",
+      "artist":"Alex Horley Orlandelli",
+      "collectible":true,
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Neutral",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/DRG_402.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DRG_402_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"TB_BaconUps_059",
+      "dbfId":"58427",
+      "name":"Voidlord",
+      "cardSet":"Battlegrounds",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":9,
+      "attack":6,
+      "health":18,
+      "text":"[x]<b>Taunt</b>\\n <b>Deathrattle:</b> Summon three\\n2/6 Demons with <b>Taunt</b>.",
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/TB_BaconUps_059.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/TB_BaconUps_059_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"LOOT_368",
+      "dbfId":"46056",
+      "name":"Voidlord",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":9,
+      "attack":3,
+      "health":9,
+      "text":"[x]<b>Taunt</b>\\n <b>Deathrattle:</b> Summon three\\n1/3 Demons with <b>Taunt</b>.",
+      "flavor":"Never let it hold your checkbook.",
+      "artist":"Jerry Mascho",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/LOOT_368.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/LOOT_368_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Taunt"
+        },
+        {
+          "name":"Deathrattle"
+        }
+      ]
+    },
+    {
+      "cardId":"LOOT_415t6",
+      "dbfId":"46033",
+      "name":"Azari, the Devourer",
+      "cardSet":"Kobolds & Catacombs",
+      "type":"Minion",
+      "cost":10,
+      "attack":10,
+      "health":10,
+      "text":"<b>Battlecry:</b> Destroy your opponent's deck.",
+      "elite":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://wow.zamimg.com/images/hearthstone/cards/enus/original/LOOT_415t6.png",
+      "imgGold":"http://wow.zamimg.com/images/hearthstone/cards/enus/animated/LOOT_415t6_premium.gif",
+      "locale":"enUS",
+      "mechanics":[
+        {
+          "name":"Battlecry"
+        }
+      ]
+    },
+    {
+      "cardId":"DAL_561",
+      "dbfId":"52480",
+      "name":"Jumbo Imp",
+      "cardSet":"Rise of Shadows",
+      "type":"Minion",
+      "rarity":"Epic",
+      "cost":10,
+      "attack":8,
+      "health":8,
+      "text":"Costs (1) less whenever a friendly Demon dies while this is in your hand.",
+      "flavor":"Jumbo in size! Huge in E.V.I.L.!",
+      "artist":"James Ryman",
+      "collectible":true,
+      "race":"Demon",
+      "playerClass":"Warlock",
+      "img":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/DAL_561.png",
+      "imgGold":"http://media.services.zam.com/v1/media/byName/hs/cards/enus/animated/DAL_561_premium.gif",
+      "locale":"enUS"
+    }
+  ]

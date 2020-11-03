@@ -1,0 +1,69 @@
+@import "~normalize-scss/sass/_normalize.scss";
+@import "variables.scss";
+@import "common-select.scss";
+
+@include normalize();
+
+body {
+  margin: 0;
+  min-height: 100%;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html{
+  min-height: 100%;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color: $scrollbar-background;
+  width: 12px;
+  height: 12px;
+}
+::-webkit-scrollbar-thumb {
+  border: 1px solid $scrollbar-background;
+  border-right: 0;
+  background-color: $scrollbar-tracker;
+}
+#root{
+  min-height: 100%;
+  height: 100%;
+}
+.filter-component {
+  margin-bottom: 12px;
+  .filter-label {
+    color: #fff;
+    font-family: 'Simonetta', cursive;
+    text-shadow: 0 0 5px #000;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 5px;
+  }
+  .common-filter-box{
+    background: $filter-box-background;
+    border: 3px solid $filter-box-border;
+    box-shadow: 0px 3px 6px fade-out($color: $filter-box-background, $amount: .1);
+    border-radius: 30px;
+    display: flex;
+    padding: 4px 8px;
+    min-height: 42px;
+    justify-content: space-between;
+    align-items: center;
+    user-select: none;
+  }
+}
+// Import the components styles
+@import '../components/app/app.scss';
+@import '../components/card-list/card-list.scss';
+@import '../components/card/card.scss';
+@import '../components/sidebar/sidebar.scss';
+@import '../components/filter-bar/class-filter/class-filter.scss';
+@import '../components/filter-bar/mana-filter/mana-filter.scss';
+@import '../components/filter-bar/quality-filter/quality-filter.scss';
+@import '../components/filter-bar/races-filter/races-filter.scss';
+@import '../components/filter-bar/set-filter/set-filter.scss';

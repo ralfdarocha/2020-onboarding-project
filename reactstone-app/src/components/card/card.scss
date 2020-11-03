@@ -1,0 +1,43 @@
+@import '/src/styles/variables.scss';
+
+.card{
+  perspective: 800px;
+  perspective-origin: 50% 50%;
+  cursor: pointer;
+  max-width: 256px;
+  position: relative;
+  width: 33.33%;
+  &:after{
+    content: '';
+    display: block;
+    padding-bottom: 151.5625%;
+  }
+  img{
+    height: 100%;
+    position: absolute;
+    transition: transform .25s cubic-bezier(0.19, 1, 0.22, 1);
+    width: 100%;
+  }
+  &:hover {
+    img{
+      transform: scale(1.1);
+      transition-duration: .4s;
+    }
+  }
+  &.card-hero {
+    img{
+      transform: translateY(-4.5%);
+    }
+    &:hover {
+      img{
+        transform: translateY(-4.5%) scale(1.1);
+      }
+    }
+  }
+  @media (min-width: 1210px) {
+    width: 25%;
+  }
+  @media (min-width: 1568px) {
+    width: 20%;
+  }
+}

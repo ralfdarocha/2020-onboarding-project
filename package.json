@@ -1,0 +1,24 @@
+{
+  "name": "2020-onboarding-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "grunt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ralfdarocha/2020-onboarding-project.git"
+  },
+  "author": "Ralf da Rocha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ralfdarocha/2020-onboarding-project/issues"
+  },
+  "homepage": "https://github.com/ralfdarocha/2020-onboarding-project#readme",
+  "devDependencies": {
+    "grunt": "^1.3.0",
+    "grunt-browser-sync": "^2.2.0"
+  }
+}
