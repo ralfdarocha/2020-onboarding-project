@@ -19,28 +19,15 @@ const config: webpack.Configuration = {
   module: {
     rules: [
       {
-        test: /\.js$/,
-        loader: 'babel-loader',
+        test: /\.(ts|js)x?$/,
+        use: {
+          loader: 'babel-loader',
+        },
       },
       // All files with a '.ts' or '.tsx' extension will be handled by 'awesome-typescript-loader'.
       { 
         test: /\.tsx?$/, 
-        use: [
-          {
-            options: {
-              useTranspileModule: true,
-              forceIsolatedModules: true,
-              useCache: true,
-              useBabel: true,
-              babelOptions: {
-                babelrc: false /* Important line */,
-              },
-              reportFiles: ['src/**/*.{ts,tsx}'],
-              babelCore: '@babel/core'
-            },
-            loader: 'awesome-typescript-loader'
-          }
-        ],
+        loader: 'ts-loader'
       },
       {
         test: /\.(jpg|png)$/,

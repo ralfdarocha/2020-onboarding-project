@@ -13,9 +13,7 @@ const config: webpack.Configuration = {
     },
     module: {
       rules: [
-        devConfig.module.rules[0],
-        devConfig.module.rules[1],
-        devConfig.module.rules[2],
+        ...devConfig.module.rules.slice(0,-1),
         {
           test: /\.s[ac]ss$/i,
           use: [

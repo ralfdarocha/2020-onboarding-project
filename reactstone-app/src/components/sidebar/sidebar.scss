@@ -11,6 +11,7 @@
   flex-direction: column;
   align-items: stretch;
   padding: 0 20px;
+  z-index: 2;
   &:after{
     content: '';
     height: 100%;

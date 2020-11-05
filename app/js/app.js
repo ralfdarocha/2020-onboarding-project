@@ -1,9 +1,13 @@
 require([ 
-    'backbonecache',
+    'backbone',
     'mainview',
     'cardcollection',
+    'classcollection',
+    'qualitycollection',
+    'racecollection',
+    'setcollection',
     'reactstone',
-], function(Backbone, MainView, CardCollection) {
+], function(Backbone, MainView, CardCollection, ClassCollection, QualityCollection, RaceCollection, SetCollection) {
     Backbone.ajax = function() {
         arguments[0].headers = {
             "x-rapidapi-host": "omgvamp-hearthstone-v1.p.rapidapi.com",
@@ -12,14 +16,42 @@ require([
         return Backbone.$.ajax.apply(Backbone.$, arguments);		
     };
     var cards = new CardCollection();
-    var mainView = new (MainView(cards))({
+    var classes = new ClassCollection();
+    var qualities = new QualityCollection();
+    var races = new RaceCollection();
+    var sets = new SetCollection();
+    
+    var mainView = new (MainView(cards, classes, qualities, races, sets))({
         el: '#root'
     });
+    
+    // Triggers when user specifies a class
+    window.addEventListener("onClassChange", async (event) => {
+        mainView.changeClass(event.detail.slug);
+    });
 
-    // var cards = new CardCollection();
-    // var races = new RaceCollection();
-    // var classes = new ClassCollection();
-    // // cards.fetch({cache: true, expires: 3600 });
-    // races.fetch({cache: true, expires: 3600 });
-    // classes.fetch({cache: true, expires: 3600 });
+    // Triggers when user specifies a race
+    window.addEventListener("onRaceChange", (event) => {
+        mainView.changeRace(event.detail.slug);
+    });
+
+    // Triggers when user specifies a quality
+    window.addEventListener("onQualityChange", (event) => {
+        mainView.changeQuality(event.detail.slug);
+    });
+
+    // Triggers when user specifies a set
+    window.addEventListener("onSetChange", (event) => {
+        mainView.changeSet(event.detail.slug);
+    });
+    
+    // Triggers when all filters are reseted
+    window.addEventListener("onManaCostChange", (event) => {
+        mainView.changeCost(event.detail.cost);
+    });
+    
+    // Triggers when all filters are reseted
+    window.addEventListener("onResetFilters", () => {
+        mainView.loadAll();
+    });
 });

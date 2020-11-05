@@ -1,7 +1,5 @@
 {
-  "patch":"18.4.2.62331",
   "classes":[
-      "Death Knight",
       "Druid",
       "Hunter",
       "Mage",
@@ -11,7 +9,6 @@
       "Shaman",
       "Warlock",
       "Warrior",
-      "Dream",
       "Neutral",
       "Demon Hunter"
   ],
@@ -51,57 +48,6 @@
       "System",
       "Debug"
   ],
-  "standard":[
-      "Basic",
-      "Classic",
-      "Rise of Shadows",
-      "Saviors of Uldum",
-      "Descent of Dragons",
-      "Galakrond's Awakening",
-      "Ashes of Outland",
-      "Demon Hunter Initiate",
-      "Scholomance Academy"
-  ],
-  "wild":[
-      "Basic",
-      "Classic",
-      "Hall of Fame",
-      "Promo",
-      "Naxxramas",
-      "Goblins vs Gnomes",
-      "Blackrock Mountain",
-      "The Grand Tournament",
-      "The League of Explorers",
-      "Whispers of the Old Gods",
-      "One Night in Karazhan",
-      "Mean Streets of Gadgetzan",
-      "Journey to Un'Goro",
-      "Knights of the Frozen Throne",
-      "Kobolds & Catacombs",
-      "The Witchwood",
-      "The Boomsday Project",
-      "Rastakhan's Rumble",
-      "Rise of Shadows",
-      "Saviors of Uldum",
-      "Descent of Dragons",
-      "Galakrond's Awakening",
-      "Ashes of Outland",
-      "Demon Hunter Initiate",
-      "Scholomance Academy"
-  ],
-  "types":[
-      "Hero",
-      "Minion",
-      "Spell",
-      "Enchantment",
-      "Weapon",
-      "Hero Power"
-  ],
-  "factions":[
-      "Horde",
-      "Alliance",
-      "Neutral"
-  ],
   "qualities":[
       "Free",
       "Common",
@@ -118,22 +64,5 @@
       "Beast",
       "Pirate",
       "Totem"
-  ],
-  "locales":[
-      "deDE",
-      "enGB",
-      "enUS",
-      "esES",
-      "esMX",
-      "frFR",
-      "itIT",
-      "koKR",
-      "plPL",
-      "ptBR",
-      "ruRU",
-      "zhCN",
-      "zhTW",
-      "jaJP",
-      "thTH"
   ]
 }

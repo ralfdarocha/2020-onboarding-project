@@ -1,20 +1,25 @@
-import * as React from "react";
-import { createStore, Store } from "redux"
-import { CardList, Sidebar} from './../';
+import React from "react";
 import { Provider } from "react-redux"
-import reducer from "./../../store/reducer"
+import { CardList, Sidebar} from './../';
+import store from "./../../store"
 import '../../styles/styles.scss';
-
-const store: Store<AppState, AppAction> & {
-    dispatch: DispatchType
-} = createStore(reducer)
   
-const App = () => {
+const App: React.FC<AppProps> = ({
+    classes,
+    qualities,
+    races,
+    sets,
+}: AppProps) => {
     return (
         <Provider store={store}>
             <div className="app">
-            <Sidebar />
-            <CardList />
+                <Sidebar 
+                    classes={classes}
+                    qualities={qualities}
+                    sets={sets}
+                    races={races}
+                />
+                <CardList />
             </div>
         </Provider>
     );

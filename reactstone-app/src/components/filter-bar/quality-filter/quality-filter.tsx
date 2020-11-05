@@ -1,32 +1,57 @@
-import React, { useState } from 'react';
-import Select from 'react-select';
-import customStyles from '../../../styles/common-select'
-import json from './../../../mock/metadata.json'
+import React from 'react';
+import { connect } from 'react-redux';
+import { RootState } from '../../../store';
+import { FilterState } from '../../../store/filter/types';
+import CustomSelect from '../../custom-select/custom-select';
+import { loadCards } from './../../../store/cards/actions';
+import { changeFilter } from './../../../store/filter/actions';
 
-const QualityFilter = () => {
+const mapDispatchToProps = { loadCards, changeFilter };
 
-  const [selectedQuality, setQuality] = useState<number | undefined>(undefined);
+interface QualityFilterProps {
+  qualities: IItem[]
+}
+type Props = QualityFilterProps & FilterState & typeof mapDispatchToProps;
+
+const QualityFilter: React.FC<Props> = ({ qualities, ...props }) => {
   
-  const toggleQuality = (item: number) => {
-    setQuality(item !== selectedQuality ? item : undefined);
+  const toggleQuality = (item:IItem | null) => {
+    props.loadCards();
+    props.changeFilter({
+      class: null,
+      cost: props.cost,
+      quality: item != null ? item : null,
+      race: null,
+      set: null,
+    });
+    if (
+      (props.quality == null && item !== null) ||
+      (props.quality !== null && item !== null && item.name !== props.quality.name)
+    ) {
+      window.dispatchEvent(
+        new CustomEvent('onQualityChange', {
+          detail: { slug: item.name },
+        })
+      );
+    } else {
+      window.dispatchEvent(
+        new CustomEvent('onResetFilters')
+      );
+    }
   }
   
   return (
-    <div className={`filter-component quality-filter${selectedQuality !== undefined ? ' filtered' : ''}`}>
-      <label htmlFor="quality-select" className="filter-label">Filter by quality:</label>
-      <div className="common-filter-box">
-        <Select
-          id="quality-select"
-          styles={customStyles}
-          menuPlacement="auto"
-          isClearable={true}
-          className="common-select"
-          classNamePrefix="common-select"
-          options={json.qualities.map(item => ({value: item, label: item }))}
-        />
-      </div>
+    <div className={`filter-component quality-filter${props.quality !== null ? ' filtered' : ''}`}>
+      <div className="filter-label">Filter by quality:</div>
+      <CustomSelect
+          label="Filter by quality"
+          options={qualities}
+          onSelect={toggleQuality}
+          selected={props.quality}
+      />
     </div>
   )
 }
+const mapStateToProps = ({ filter }: RootState) => filter;
 
-export default QualityFilter;
+export default connect(mapStateToProps, mapDispatchToProps)(QualityFilter);

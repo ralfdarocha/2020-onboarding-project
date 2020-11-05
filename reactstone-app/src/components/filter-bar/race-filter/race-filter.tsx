@@ -8,28 +8,28 @@ import { changeFilter } from './../../../store/filter/actions';
 
 const mapDispatchToProps = { loadCards, changeFilter };
 
-interface SetFilterProps {
-  sets: IItem[]
+interface RaceFilterProps {
+  races: IItem[]
 }
-type Props = SetFilterProps & FilterState & typeof mapDispatchToProps;
+type Props = RaceFilterProps & FilterState & typeof mapDispatchToProps;
 
-const SetFilter: React.FC<Props> = ({ sets, ...props }) => {
+const RaceFilter: React.FC<Props> = ({ races, ...props }) => {
   
-  const toggleSet = (item:IItem | null) => {
+  const toggleRace = (item:IItem | null) => {
     props.loadCards();
     props.changeFilter({
       class: null,
-      set: item != null ? item : null,
+      cost: props.cost,
       quality: null,
-      race: null,
-      cost: props.cost
+      race: item != null ? item : null,
+      set: null,
     });
     if (
-      (props.set == null && item !== null) ||
-      (props.set !== null && item !== null && item.name !== props.set.name)
+      (props.race == null && item !== null) ||
+      (props.race !== null && item !== null && item.name !== props.race.name)
     ) {
       window.dispatchEvent(
-        new CustomEvent('onSetChange', {
+        new CustomEvent('onRaceChange', {
           detail: { slug: item.name },
         })
       );
@@ -41,17 +41,17 @@ const SetFilter: React.FC<Props> = ({ sets, ...props }) => {
   }
   
   return (
-    <div className={`filter-component set-filter${props.set !== null ? ' filtered' : ''}`}>
-      <div className="filter-label">Filter by set:</div>
+    <div className={`filter-component race-filter${props.race !== null ? ' filtered' : ''}`}>
+      <div className="filter-label">Filter by race:</div>
       <CustomSelect
-          label="Filter by set"
-          options={sets}
-          onSelect={toggleSet}
-          selected={props.set}
+          label="Filter by race"
+          options={races}
+          onSelect={toggleRace}
+          selected={props.race}
       />
     </div>
   )
 }
 const mapStateToProps = ({ filter }: RootState) => filter;
 
-export default connect(mapStateToProps, mapDispatchToProps)(SetFilter);
+export default connect(mapStateToProps, mapDispatchToProps)(RaceFilter);

@@ -1,16 +1,21 @@
 define([ 'backbone', 'cardmodel' ], function(Backbone, CardModel) {
     return Backbone.Collection.extend({
         model: CardModel,
+        url_complement: '',
         url: function() {
-            return "https://omgvamp-hearthstone-v1.p.rapidapi.com/cards";
+            return `https://omgvamp-hearthstone-v1.p.rapidapi.com/cards${this.url_complement}`;
         },
         parse: function(response) {
-            var cards = [];
-            var keys = Object.keys(response);
-            for (var i in keys){
-                cards = cards.concat(response[keys[i]]);
+            if (this.url_complement !== '') {
+                return response;
+            } else {
+                var cards = [];
+                var keys = Object.keys(response);
+                for (var i in keys){
+                    cards = cards.concat(response[keys[i]]);
+                }
+                return cards;
             }
-            return cards;
         }
     });
 });

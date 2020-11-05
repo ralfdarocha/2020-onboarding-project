@@ -1,0 +1,3 @@
+interface IMechanics {
+    name: string;
+}

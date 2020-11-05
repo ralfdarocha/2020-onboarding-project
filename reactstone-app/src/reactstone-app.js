@@ -1,6 +1,5 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import retargetEvents from 'react-shadow-dom-retarget-events';
 
 import App from './components/app/app';
 import style from './styles/styles.scss';
@@ -24,12 +23,16 @@ export default class ReacstoneAppElement extends HTMLElement {
         shadowRoot.appendChild(styleTag);
         
         shadowRoot.appendChild(this.mountPoint);
+        
+        // Making the shadow appear like document 
+        // so react events work as normal
+        Object.defineProperty(root, "ownerDocument", { value: shadowRoot });
+        shadowRoot.createElement = (...args) => document.createElement(...args);
 
         ReactDOM.render(
             React.createElement(
                 App,
                 {
-                    cards: this.cards || [],
                     classes: this.classes || [],
                     qualities: this.qualities || [],
                     races: this.races || [],
@@ -39,7 +42,6 @@ export default class ReacstoneAppElement extends HTMLElement {
             ),
             this.mountPoint
         );
-        retargetEvents(shadowRoot);
     }
 }
 

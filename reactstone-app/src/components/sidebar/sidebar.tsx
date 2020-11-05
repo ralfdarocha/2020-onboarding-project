@@ -1,22 +1,26 @@
 import React from 'react';
-import { ClassFilter, ManaFilter, QualityFilter, RacesFilter, SetFilter } from './../filter-bar';
+import { ClassFilter, ManaFilter, QualityFilter, RaceFilter, SetFilter } from './../filter-bar';
 import logo from './../../images/logo.png';
 
-function Sidebar() {
-  return (
-    <div className="sidebar">
-      {/* <div className="sidebar-content"> */}
-        <div className="sidebar-logo">
-          <img src={logo} alt="Hearthstone logo" />
+
+const Sidebar: React.FC<AppProps> = ({
+    classes,
+    qualities,
+    races,
+    sets,
+}: AppProps) => {
+    return (
+        <div className="sidebar">
+            <div className="sidebar-logo">
+                <img src={logo} alt="Hearthstone logo" />
+            </div>
+            <ClassFilter classes={classes} />
+            <ManaFilter />
+            <SetFilter sets={sets} />
+            <RaceFilter races={races} />
+            <QualityFilter qualities={qualities} />
         </div>
-        <ClassFilter />
-        <ManaFilter />
-        <SetFilter />
-        <RacesFilter />
-        <QualityFilter />
-      {/* </div> */}
-    </div>
-  );
+    );
 }
 
 export default Sidebar;

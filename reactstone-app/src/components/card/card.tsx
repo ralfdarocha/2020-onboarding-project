@@ -1,7 +1,6 @@
 import React from 'react';
-import { CardProps } from '../../interfaces/card-props'
 
-const Card = (props: CardProps) => {
+const Card = (props: ICard) => {
 
   return (
     <React.Fragment>

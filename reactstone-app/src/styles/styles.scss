@@ -1,6 +1,5 @@
 @import "~normalize-scss/sass/_normalize.scss";
 @import "variables.scss";
-@import "common-select.scss";
 
 @include normalize();
 
@@ -61,9 +60,10 @@ html{
 @import '../components/app/app.scss';
 @import '../components/card-list/card-list.scss';
 @import '../components/card/card.scss';
+@import '../components/custom-select/custom-select.scss';
 @import '../components/sidebar/sidebar.scss';
 @import '../components/filter-bar/class-filter/class-filter.scss';
 @import '../components/filter-bar/mana-filter/mana-filter.scss';
 @import '../components/filter-bar/quality-filter/quality-filter.scss';
-@import '../components/filter-bar/races-filter/races-filter.scss';
+@import '../components/filter-bar/race-filter/race-filter.scss';
 @import '../components/filter-bar/set-filter/set-filter.scss';

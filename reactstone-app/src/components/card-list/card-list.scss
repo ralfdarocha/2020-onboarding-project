@@ -1,9 +1,32 @@
 @import '/src/styles/variables.scss';
 
 .card-list {
-  display: flex;
-  flex-grow: 1;
-  flex-wrap: wrap;
-  margin-left: 20px;
-  padding: 0 20px;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    padding: 0 20px;
+    position: relative;
+    &::after{
+        content: '';
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba($color: #000000, $alpha: .5);
+        width: 100%;
+        height: 100%;
+        transition: opacity .2s, visibility 0s .2s;
+        z-index: 90;
+    }
+    &.is-loading {
+        overflow: hidden;
+        height: 100vh;
+        &::after{
+            visibility: visible;
+            opacity: 10;
+            transition-delay: 0s;
+        }
+    }
 }
