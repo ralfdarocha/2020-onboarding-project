@@ -1,0 +1,19 @@
+@import '/src/styles/variables.scss';
+
+.card-loader{
+  background: url('/src/images/card-back.png') no-repeat 50% 54%;
+  background-size: 84%;
+  width: 33.33%;
+  max-width: 256px;
+  &:after{
+    content: '';
+    display: block;
+    padding-bottom: 151.5625%;
+  }
+  @media (min-width: 1210px) {
+    width: 25%;
+  }
+  @media (min-width: 1568px) {
+    width: 20%;
+  }
+}

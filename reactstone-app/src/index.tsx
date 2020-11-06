@@ -14,11 +14,13 @@ const dispatchDevCards = (filterCards:ICard[], manaCost:number = null,):void => 
         if (cost)
             filterCards = filterCards.filter((item:ICard) => cost == 10 ? item.cost >= 10 : cost == item.cost)
     }
-    window.dispatchEvent(
-        new CustomEvent("onLoadCards", {
-            detail: { cards: filterCards },
-        })
-    );
+    setTimeout(() => {
+        window.dispatchEvent(
+            new CustomEvent("onLoadCards", {
+                detail: { cards: filterCards },
+            })
+        );
+    }, 300);
 }
 
 ReactDOM.render(

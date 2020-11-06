@@ -1,22 +1,26 @@
 import React from 'react';
 
-const Card = (props: ICard) => {
+interface Props {
+  card: ICard
+}
+
+const Card: React.FC<Props> = ({ card }: Props) => {
 
   return (
     <React.Fragment>
-      {props.img != null &&
-        <div className={`card${props.type === 'Hero' ? ' card-hero' : ''}`}>
+      {card.img != null &&
+        <div className={`card${card.type === 'Hero' ? ' card-hero' : ''}`}>
           <img 
-            src={`https://art.hearthstonejson.com/v1/render/latest/enUS/256x/${props.cardId}.png`}
+            src={`https://art.hearthstonejson.com/v1/render/latest/enUS/256x/${card.cardId}.png`}
             className="card-image"
-            alt={props.name}
+            alt={card.name}
             loading="lazy"
             width="256"
             height="387"
           />
-          {/* <img src={props.img} className="card-image" alt="card name" onError={(evt) => { evt.currentTarget.src = `https://art.hearthstonejson.com/v1/render/latest/enUS/512x/${props.cardId}.png` }} />
-          {props.imgGold != null &&
-            <img src={props.imgGold} className="card-premium" alt="card name" onError={(evt) => { evt.currentTarget.className = 'card-premium fallback'; evt.currentTarget.src = `https://art.hearthstonejson.com/v1/render/latest/enUS/512x/${props.cardId}.png` }} />
+          {/* <img src={card.img} className="card-image" alt="card name" onError={(evt) => { evt.currentTarget.src = `https://art.hearthstonejson.com/v1/render/latest/enUS/512x/${card.cardId}.png` }} />
+          {card.imgGold != null &&
+            <img src={card.imgGold} className="card-premium" alt="card name" onError={(evt) => { evt.currentTarget.className = 'card-premium fallback'; evt.currentTarget.src = `https://art.hearthstonejson.com/v1/render/latest/enUS/512x/${card.cardId}.png` }} />
           } */}
         </div>
       }

@@ -1,7 +1,7 @@
 import { CardsState, CardsTypes, SET_CARDS, LOADING_CARDS } from './types'
 
 const initialState: CardsState = {
-    loading: false,
+    loading: true,
     cards: []
 }
 
