@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Card /> renders correctly 1`] = `
+<div
+  className="card card-hero"
+>
+  <img
+    alt="Gul'dan"
+    className="card-image"
+    height="387"
+    loading="lazy"
+    src="https://art.hearthstonejson.com/v1/render/latest/enUS/256x/HERO_07.png"
+    width="256"
+  />
+</div>
+`;

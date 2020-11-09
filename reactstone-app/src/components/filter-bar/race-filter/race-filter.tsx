@@ -15,7 +15,7 @@ type Props = RaceFilterProps & FilterState & typeof mapDispatchToProps;
 
 const RaceFilter: React.FC<Props> = ({ races, ...props }) => {
   
-  const toggleRace = (item:IItem | null) => {
+  const filterByRace = (item:IItem | null) => {
     props.loadCards();
     props.changeFilter({
       class: null,
@@ -24,18 +24,15 @@ const RaceFilter: React.FC<Props> = ({ races, ...props }) => {
       race: item != null ? item : null,
       set: null,
     });
-    if (
-      (props.race == null && item !== null) ||
-      (props.race !== null && item !== null && item.name !== props.race.name)
-    ) {
+    if (item === null) {
+      window.dispatchEvent(
+        new CustomEvent('onResetFilters')
+      );
+    } else if (props.race === null || item.name !== props.race.name) {
       window.dispatchEvent(
         new CustomEvent('onRaceChange', {
           detail: { slug: item.name },
         })
-      );
-    } else {
-      window.dispatchEvent(
-        new CustomEvent('onResetFilters')
       );
     }
   }
@@ -46,7 +43,7 @@ const RaceFilter: React.FC<Props> = ({ races, ...props }) => {
       <CustomSelect
           label="Filter by race"
           options={races}
-          onSelect={toggleRace}
+          onSelect={filterByRace}
           selected={props.race}
       />
     </div>

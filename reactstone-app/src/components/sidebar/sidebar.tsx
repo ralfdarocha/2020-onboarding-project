@@ -10,7 +10,7 @@ const Sidebar: React.FC<AppProps> = ({
     sets,
 }: AppProps) => {
     return (
-        <div className="sidebar">
+        <section className="sidebar">
             <div className="sidebar-logo">
                 <img src={logo} alt="Hearthstone logo" />
             </div>
@@ -19,7 +19,7 @@ const Sidebar: React.FC<AppProps> = ({
             <SetFilter sets={sets} />
             <RaceFilter races={races} />
             <QualityFilter qualities={qualities} />
-        </div>
+        </section>
     );
 }
 

@@ -7,6 +7,8 @@
     margin-left: 20px;
     padding: 0 20px;
     position: relative;
+    z-index: 1;
+    overflow: hidden;
     &::after{
         content: '';
         opacity: 0;
@@ -44,6 +46,26 @@
             visibility: visible;
             opacity: 1;
             transition-delay: 0s;
+        }
+    }
+    .no-cards {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 20px;
+        width: 100%;
+        font-family: 'Simonetta', cursive;
+        text-shadow: 0 0 5px #000;
+        color: #fff;
+        font-weight: 900;
+        .no-cards-title {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+        .no-cards-message {
+            font-size: 18px;
         }
     }
 }

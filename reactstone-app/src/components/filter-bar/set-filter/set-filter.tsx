@@ -15,7 +15,7 @@ type Props = SetFilterProps & FilterState & typeof mapDispatchToProps;
 
 const SetFilter: React.FC<Props> = ({ sets, ...props }) => {
   
-  const toggleSet = (item:IItem | null) => {
+  const filterBySet = (item:IItem | null) => {
     props.loadCards();
     props.changeFilter({
       class: null,
@@ -24,18 +24,15 @@ const SetFilter: React.FC<Props> = ({ sets, ...props }) => {
       race: null,
       cost: props.cost
     });
-    if (
-      (props.set == null && item !== null) ||
-      (props.set !== null && item !== null && item.name !== props.set.name)
-    ) {
+    if (item === null) {
+      window.dispatchEvent(
+        new CustomEvent('onResetFilters')
+      );
+    } else if (props.set === null || item.name !== props.set.name) {
       window.dispatchEvent(
         new CustomEvent('onSetChange', {
           detail: { slug: item.name },
         })
-      );
-    } else {
-      window.dispatchEvent(
-        new CustomEvent('onResetFilters')
       );
     }
   }
@@ -46,7 +43,7 @@ const SetFilter: React.FC<Props> = ({ sets, ...props }) => {
       <CustomSelect
           label="Filter by set"
           options={sets}
-          onSelect={toggleSet}
+          onSelect={filterBySet}
           selected={props.set}
       />
     </div>

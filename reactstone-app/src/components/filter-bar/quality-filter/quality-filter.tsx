@@ -15,7 +15,7 @@ type Props = QualityFilterProps & FilterState & typeof mapDispatchToProps;
 
 const QualityFilter: React.FC<Props> = ({ qualities, ...props }) => {
   
-  const toggleQuality = (item:IItem | null) => {
+  const filterByQuality = (item:IItem | null) => {
     props.loadCards();
     props.changeFilter({
       class: null,
@@ -24,18 +24,15 @@ const QualityFilter: React.FC<Props> = ({ qualities, ...props }) => {
       race: null,
       set: null,
     });
-    if (
-      (props.quality == null && item !== null) ||
-      (props.quality !== null && item !== null && item.name !== props.quality.name)
-    ) {
+    if (item === null) {
+      window.dispatchEvent(
+        new CustomEvent('onResetFilters')
+      );
+    } else if (props.quality === null || item.name !== props.quality.name) {
       window.dispatchEvent(
         new CustomEvent('onQualityChange', {
           detail: { slug: item.name },
         })
-      );
-    } else {
-      window.dispatchEvent(
-        new CustomEvent('onResetFilters')
       );
     }
   }
@@ -46,7 +43,7 @@ const QualityFilter: React.FC<Props> = ({ qualities, ...props }) => {
       <CustomSelect
           label="Filter by quality"
           options={qualities}
-          onSelect={toggleQuality}
+          onSelect={filterByQuality}
           selected={props.quality}
       />
     </div>

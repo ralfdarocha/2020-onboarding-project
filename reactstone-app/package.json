@@ -16,10 +16,17 @@
       "tsx",
       "js"
     ],
-    "transform": {
-      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy"
     },
-    "testRegex": "/__tests__/.*\\.(ts|tsx|js)$"
+    "transform": {
+      "\\.(jpg|jpeg|png|gif|svg)$": "jest-url-loader",
+      "\\.(ts|tsx)$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.[jt]sx?$",
+    "setupFilesAfterEnv": [
+      "<rootDir>src/setupTests.ts"
+    ]
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -39,18 +46,29 @@
     "@babel/preset-env": "^7.12.1",
     "@babel/preset-react": "^7.12.1",
     "@babel/preset-typescript": "^7.12.1",
+    "@types/enzyme": "3.10.8",
     "@types/html-webpack-plugin": "^3.2.4",
     "@types/react": "^16.9.53",
     "@types/react-dom": "^16.9.8",
     "@types/react-redux": "^7.1.9",
+    "@types/react-test-renderer": "^16.9.3",
     "@types/redux": "^3.6.0",
+    "@types/redux-mock-store": "^1.0.2",
     "@types/webpack": "^4.41.23",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.3.1",
     "babel-loader": "^8.1.0",
     "copy-webpack-plugin": "^6.2.1",
     "css-loader": "^5.0.0",
+    "enzyme": "3.11.0",
+    "enzyme-to-json": "3.6.1",
     "html-webpack-plugin": "^4.5.0",
+    "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.1",
+    "jest-fetch-mock": "3.0.3",
+    "jest-url-loader": "^0.1.0",
     "node-sass": "^4.14.1",
+    "react-test-renderer": "^17.0.1",
+    "redux-mock-store": "^1.5.4",
     "sass": "^1.27.0",
     "sass-loader": "^10.0.4",
     "style-loader": "^2.0.0",

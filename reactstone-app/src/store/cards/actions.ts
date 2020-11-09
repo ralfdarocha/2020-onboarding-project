@@ -1,4 +1,4 @@
-import { CardsState, CardsTypes, SET_CARDS, LOADING_CARDS } from './types'
+import { CardsTypes, SET_CARDS, LOADING_CARDS } from './types'
 
 export function setCards(newCards: ICard[]): CardsTypes {
   return {

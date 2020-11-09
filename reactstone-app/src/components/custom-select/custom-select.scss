@@ -121,7 +121,6 @@
         }
         li {
             list-style-type: none;
-            padding: 0;
             cursor: pointer;
             color: #fff;
             font-size: 16px;
@@ -137,5 +136,11 @@
                 background: darken($color: $filter-box-background, $amount: 5);
             }
         }
+    }
+    .no-options {
+        color: #fff;
+        font-size: 16px;
+        padding: 30px 10px;
+        text-align: center;
     }
 }
