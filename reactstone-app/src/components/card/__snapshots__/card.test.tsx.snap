@@ -9,8 +9,46 @@ exports[`<Card /> renders correctly 1`] = `
     className="card-image"
     height="387"
     loading="lazy"
+    onError={[Function]}
     src="https://art.hearthstonejson.com/v1/render/latest/enUS/256x/HERO_07.png"
     width="256"
   />
+</div>
+`;
+
+exports[`<Card /> renders image fallback 1`] = `
+<div
+  className="card card-hero no-image"
+>
+  <div
+    className="no-image-card"
+  >
+    <div
+      className="card-image"
+    >
+      Image not found
+    </div>
+    <div
+      className="card-cost"
+    >
+      <span>
+        0
+      </span>
+    </div>
+    <div
+      className="card-title"
+    >
+      <span>
+        Scholar Jaina
+      </span>
+    </div>
+    <div
+      className="card-health"
+    >
+      <span>
+        30
+      </span>
+    </div>
+  </div>
 </div>
 `;

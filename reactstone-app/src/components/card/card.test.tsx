@@ -26,10 +26,29 @@ describe('<Card />', () => {
     expect(tree).toMatchSnapshot();
   });
 
+  it('renders image fallback', () => {
+    const tree = renderer.create(
+      <Card card={{
+        cardId: "HERO_08f",
+        cardSet: "Hero Skins",
+        collectible: true,
+        dbfId: "61598",
+        faction: "Neutral",
+        health: 30,
+        locale: "enUS",
+        name: "Scholar Jaina",
+        playerClass: "Mage",
+        rarity: "Free",
+        type: "Hero"
+      }} />
+    ).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+
   it('shouldn\'t have an image', () => {
     const { img, ...card } = cardsMock[0];
     const component = shallow(<Card card={card} />);
-    expect(component.find('img').exists()).toBe(false);
+    expect(component.find('img').exists()).toBeFalsy();
   });
 
 });

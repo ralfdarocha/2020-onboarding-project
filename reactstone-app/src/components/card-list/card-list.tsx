@@ -11,10 +11,14 @@ const mapDispatchToProps = { setCards };
 type Props = CardsState & typeof mapDispatchToProps;
 
 const CardList: React.FC<Props> = ({ loading, cards, ...props }: Props) => {
+  
   // Executed only once
   useEffect(() => {
-    window.addEventListener('onLoadCards', (event: any) => {
+    window.addEventListener('onLoadCards', (event: any):void => {
       props.setCards(event.detail.cards);
+    });
+    window.addEventListener('errorLoadingCards', ():void => {
+      props.setCards([]);
     });
   }, []);
 

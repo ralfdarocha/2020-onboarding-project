@@ -1,0 +1,1 @@
+define(["backbone","racemodel"],function(e,n){return e.Collection.extend({model:n})});
