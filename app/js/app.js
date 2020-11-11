@@ -7,7 +7,7 @@ require([
     'racecollection',
     'setcollection',
     'reactstone',
-], function(Backbone, MainView, CardCollection, ClassCollection, QualityCollection, RaceCollection, SetCollection) {
+], (Backbone, MainView, CardCollection, ClassCollection, QualityCollection, RaceCollection, SetCollection) => {
     // Rapid API headers Configuration
     Backbone.ajax = function() {
         arguments[0].headers = {
@@ -27,27 +27,27 @@ require([
         el: '#root'
     });
     // Triggers when user specifies a class
-    window.addEventListener("onClassChange", function(event) {
+    window.addEventListener("onClassChange", (event) => {
         mainView.changeClass(event.detail.slug);
     });
     // Triggers when user specifies a race
-    window.addEventListener("onRaceChange", function(event) {
+    window.addEventListener("onRaceChange", (event) => {
         mainView.changeRace(event.detail.slug);
     });
     // Triggers when user specifies a quality
-    window.addEventListener("onQualityChange", function(event) {
+    window.addEventListener("onQualityChange", (event) => {
         mainView.changeQuality(event.detail.slug);
     });
     // Triggers when user specifies a set
-    window.addEventListener("onSetChange", function(event) {
+    window.addEventListener("onSetChange", (event) => {
         mainView.changeSet(event.detail.slug);
     });
     // Triggers when all filters are reseted
-    window.addEventListener("onManaCostChange", function(event) {
+    window.addEventListener("onManaCostChange", (event) => {
         mainView.changeCost(event.detail.cost);
     });
     // Triggers when all filters are reseted
-    window.addEventListener("onResetFilters", function() {
+    window.addEventListener("onResetFilters", () => {
         mainView.loadAll();
     });
 });

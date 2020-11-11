@@ -16,7 +16,7 @@ The application consumes the [Hearthstone API](https://rapidapi.com/omgvamp/api/
 
 #### Development
 
-First of all, you will need to build a distribution version of the React App inside the folder `reacstone-app`. You can find the instruction [here](reacstone-app/readme.md).
+First of all, you will need to build a distribution version of the React App inside the folder `reacstone-app`. You can find the instruction [here](https://github.com/ralfdarocha/2020-onboarding-project/tree/main/reactstone-app/README.md).
 Then you can simply run the following:
 
 ```sh
@@ -25,10 +25,10 @@ $ npm start
 
 #### Building for production
 
-The whole application can be built and ready for production with the following command. 
+The whole application can be built and ready for production with the following command:
 
 ```sh
-$ npm run build
+$ npm run dist
 ```
 
 Automated tests will be executed and applications will be built and compressed on `dist` folder.

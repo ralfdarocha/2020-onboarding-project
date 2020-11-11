@@ -3,20 +3,62 @@ module.exports = function (grunt) {
         watch: {},
         clean: ["dist"],
         run: {
-            exec: "cd reactstone-app && npm install && npm test && npm build",
+          commands: {
+            exec: "cd reactstone-app && npm install && npm run test && npm run build",
+          }
         },
         copy: {
           main: {
             files: [
               {
-                src: ["app/**"],
-                dest: "dist/",
+                expand: true,
+                cwd: 'app/',
+                src: ['**'],
+                dest: 'dist/',
               },
               {
-                src: ["reactstone-app/dist/bundle.js"],
-                dest: "dist/reactstone-app/dist/bundle.js",
+                src: ["reactstone-app/dist/reactstone.js"],
+                dest: "dist/vendor/reactstone.js",
               },
             ],
+          },
+        },
+        replace: {
+          bootjs: {
+            options: {
+              patterns: [
+                {
+                  match: /..\/..\/reactstone-app\/dist/g,
+                  replacement: '../vendor'
+                }
+              ]
+            },
+            files: [
+              {
+                expand: true, 
+                flatten: true, 
+                src: ['dist/js/boot.js'], 
+                dest: 'dist/js/'
+              }
+            ]
+          },
+          indexhtml: {
+            options: {
+              patterns: [
+                {
+                  match: /\"app\//g,
+                  replacement: '"'
+                }
+              ]
+            },
+            files: [
+              {
+                expand: true, 
+                flatten: true, 
+                src: ['dist/index.html'], 
+                dest: 'dist/'
+              }
+            ]
           },
         },
         cssmin: {
@@ -24,20 +66,36 @@ module.exports = function (grunt) {
             files: [
               {
                 expand: true,
-                cwd: "dist/app/styles",
+                cwd: "dist/styles",
                 src: ["*.css"],
-                dest: "dist/app/styles",
+                dest: "dist/styles",
                 ext: ".css",
               },
             ],
           },
+        },
+        babel: {
+          options: {
+            sourceMap: false,
+            presets: ['@babel/preset-env']
+          },
+          dist: {
+            files: [
+              {
+                expand: true,
+                src: ["dist/js/**/*.js"],
+                dest: "",
+                ext: ".js",
+              },
+            ]
+          }
         },
         uglify: {
           all: {
             files: [
               {
                 expand: true,
-                src: ["dist/app/**/*.js"],
+                src: ["dist/js/**/*.js"],
                 dest: "",
                 ext: ".js",
               },
@@ -67,18 +125,22 @@ module.exports = function (grunt) {
     // load npm tasks
     grunt.loadNpmTasks('grunt-browser-sync');
     grunt.loadNpmTasks("grunt-run");
+    grunt.loadNpmTasks('grunt-babel');
+    grunt.loadNpmTasks('grunt-replace');
     grunt.loadNpmTasks("grunt-contrib-clean");
     grunt.loadNpmTasks("grunt-contrib-copy");
     grunt.loadNpmTasks("grunt-contrib-cssmin");
     grunt.loadNpmTasks("grunt-contrib-uglify");
     // define default task
     grunt.registerTask('default', ['browserSync']);
-    // Register the build task
-    grunt.registerTask('build', [
+    // Register the dist task
+    grunt.registerTask('dist', [
         'clean',
         'run',
         'copy',
-        "cssmin",
-        "uglify",
+        'replace',
+        'cssmin',
+        'babel',
+        'uglify',
     ]);
 };
