@@ -1,77 +1,82 @@
-@import '/src/styles/variables.scss';
+@import "/src/styles/variables.scss";
 
-.mana-filter{
-  .mana-icon {
-    background: url('/src/images/mana.png') no-repeat 50% 50%;
-    background-size: contain;
-    cursor: pointer;
-    position: relative;
-    width: 8.4%;
-    span{
-      color: #fff;
-      font-family: 'Simonetta', cursive;
-      font-size: 16px;
-      font-weight: 900;
-      left: 50%;
-      margin-bottom: 5px;
-      pointer-events: none;
-      position: absolute;
-      text-shadow: 0 0 5px #000;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      z-index: 2;
+.mana-filter {
+    .common-filter-box {
+        justify-content: space-around;
     }
-    &::before {
-      content: '';
-      display: block;
-      padding-bottom: 100%;
-    }
-    &::after {
-      content: '';
-      background: url('/src/images/mana-hover.png') no-repeat left center;
-      background-size: contain;
-      height: 100%;
-      left: 0;
-      opacity: 0;
-      position: absolute;
-      transform: scale(0);
-      transition: all .2s $filter-bezier;
-      top: 0;
-      width: 100%;
-      z-index: 1;
-    }
-    &:last-child {
-      width: 16%;
-      background-image: url('/src/images/mana-plus.png');
-      &::before {
-        padding-bottom: 50%;
-      }
-      span {
-        left: 30%;
-        &:last-child{
-          left: 70%;
+    .mana-icon {
+        background: url("/src/images/mana.png") no-repeat 50% 50%;
+        background-size: contain;
+        cursor: pointer;
+        position: relative;
+        max-width: 28px;
+        width: 8.4%;
+        span {
+            color: #fff;
+            font-family: "Simonetta", cursive;
+            font-size: 16px;
+            font-weight: 900;
+            left: 50%;
+            margin-bottom: 5px;
+            pointer-events: none;
+            position: absolute;
+            text-shadow: 0 0 5px #000;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
         }
-      }
+        &::before {
+            content: "";
+            display: block;
+            padding-bottom: 100%;
+        }
+        &::after {
+            content: "";
+            background: url("/src/images/mana-hover.png") no-repeat left center;
+            background-size: contain;
+            height: 100%;
+            left: 0;
+            opacity: 0;
+            position: absolute;
+            transform: scale(0);
+            transition: all 0.2s $filter-bezier;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+        &:last-child {
+            width: 16%;
+            max-width: 54px;
+            background-image: url("/src/images/mana-plus.png");
+            &::before {
+                padding-bottom: 50%;
+            }
+            span {
+                left: 30%;
+                &:last-child {
+                    left: 70%;
+                }
+            }
+        }
+        &:hover {
+            opacity: 1 !important;
+            filter: grayscale(0%) !important;
+            &::after {
+                opacity: 0.4;
+                transform: scale(1);
+            }
+        }
+        &.selected {
+            &::after {
+                opacity: 0.8;
+                transform: scale(1);
+            }
+        }
     }
-    &:hover {
-      opacity: 1 !important;
-      filter: grayscale(0%) !important;
-      &::after{
-        opacity: .4;
-        transform: scale(1);
+    &.filtered {
+        .mana-icon:not(.selected) {
+            opacity: 0.9;
+            filter: grayscale(100%);
+        }
     }
-    }
-    &.selected {
-      &::after{
-        opacity: .8;
-        transform: scale(1);
-      }
-    }
-  }
-  &.filtered {
-    .mana-icon:not(.selected) {
-      opacity: .9;
-      filter: grayscale(100%);
-    }
-  }
 }

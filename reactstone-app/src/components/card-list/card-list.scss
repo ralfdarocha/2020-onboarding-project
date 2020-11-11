@@ -3,12 +3,20 @@
 .card-list {
     display: flex;
     flex-grow: 1;
-    flex-wrap: wrap;
     margin-left: 20px;
+    flex-direction: column;
     padding: 0 20px;
     position: relative;
     z-index: 1;
-    overflow: hidden;
+    .card-list-content {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        z-index: 1;
+        overflow: hidden;
+    }
     &::after{
         content: '';
         opacity: 0;
@@ -53,6 +61,7 @@
         color: #fff;
         display: flex;
         flex-direction: column;
+        flex-grow: 1;
         font-family: 'Simonetta', cursive;
         font-weight: 900;
         justify-content: center;
@@ -67,6 +76,24 @@
         }
         .no-cards-message {
             font-size: 18px;
+        }
+        // Mobile rules
+        @media (max-width: 959px) {
+            min-height: 0;
+        }
+    }
+    // Mobile rules
+    @media (max-width: 959px) {
+        width: 100%;
+        margin-left: 0;
+        padding: 0 5px;
+        .loader{
+            margin-left: 0;
+        }
+    }
+    @media (max-width: 360px) {
+        .card-list-content {
+            justify-content: center;
         }
     }
 }

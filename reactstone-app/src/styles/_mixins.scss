@@ -1,0 +1,30 @@
+@mixin card-media-query() {
+    max-width: 256px;
+    width: 33.33%;
+    @media (min-width: 1210px) {
+        width: 25%;
+    }
+    @media (min-width: 1568px) {
+        width: 20%;
+    }
+    @media (min-width: 1700px) {
+        width: 16.6%;
+    }
+    @media (max-width: 959px) {
+        width: 25%;
+    }
+    @media (max-width: 760px) {
+        width: 33.33%;
+    }
+    @media (max-width: 500px) {
+        width: 50%;
+    }
+    @media (max-width: 360px) {
+        width: 100%;
+    }
+    &:after {
+        content: "";
+        display: block;
+        padding-bottom: 151.5625%;
+    }
+}

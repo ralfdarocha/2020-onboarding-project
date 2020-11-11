@@ -1,9 +1,14 @@
 .app {
-  background: url('/src/images/background.jpg') repeat top left;
-  display: flex;
-  align-items: flex-start;
-  min-height: 100%;
-  font-family: 'Open Sans', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: url('/src/images/background.jpg') repeat top left;
+    display: flex;
+    align-items: flex-start;
+    min-height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    // Mobile rules
+    @media (max-width: 959px) {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }

@@ -1,19 +1,8 @@
-@import '/src/styles/variables.scss';
+@import "/src/styles/variables.scss";
+@import "/src/styles/mixins.scss";
 
-.card-loader{
-  background: url('/src/images/card-back.png') no-repeat 56% 52%;
-  background-size: 82%;
-  width: 33.33%;
-  max-width: 256px;
-  &:after{
-    content: '';
-    display: block;
-    padding-bottom: 151.5625%;
-  }
-  @media (min-width: 1210px) {
-    width: 25%;
-  }
-  @media (min-width: 1568px) {
-    width: 20%;
-  }
+.card-loader {
+    background: url("/src/images/card-back.png") no-repeat 56% 52%;
+    background-size: 82%;
+    @include card-media-query();
 }

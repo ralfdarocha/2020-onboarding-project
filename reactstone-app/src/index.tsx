@@ -35,7 +35,7 @@ ReactDOM.render(
     ():void => {
         setTimeout(() => {
             // Load the first cards
-            dispatchDevCards(cards);
+            // dispatchDevCards(cards);
             // Simulate the custom events of the backbone app
             window.addEventListener("onClassChange", (event:any):void => dispatchDevCards(cardsMock.filter((item:ICard) => event.detail.slug == item.playerClass)));
             window.addEventListener("onRaceChange", (event:any):void => dispatchDevCards(cardsMock.filter((item:ICard) => event.detail.slug == item.race)));

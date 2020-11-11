@@ -4,7 +4,7 @@ module.exports = function (grunt) {
         clean: ["dist"],
         run: {
           commands: {
-            exec: "cd reactstone-app && npm install && npm run test && npm run build",
+            exec: "cd reactstone-app && npm install && npm run build",
           }
         },
         copy: {
