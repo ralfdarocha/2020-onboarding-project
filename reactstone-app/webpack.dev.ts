@@ -1,6 +1,7 @@
 import * as webpack from "webpack";
 import HtmlWebPackPlugin from "html-webpack-plugin";
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 const htmlPlugin = new HtmlWebPackPlugin({
   template: "./src/index.html"
@@ -11,7 +12,8 @@ const config: webpack.Configuration = {
   entry: "./src/index.tsx",
   resolve: {
     // Add '.ts' and '.tsx' as resolvable extensions.
-    extensions: [".ts", ".tsx", ".js", ".json"]
+    extensions: [".ts", ".tsx", ".js", ".json"],
+    plugins: [new TsconfigPathsPlugin()]
   },
   optimization: {
     minimizer: [new UglifyJsPlugin()],

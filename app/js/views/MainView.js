@@ -2,7 +2,8 @@ define([
     'underscore', 
     'backbone', 
     'tpl!../templates/main.tpl',
-], (_, Backbone, mainView) => {
+    'rapidapi'
+], (_, Backbone, mainView, config) => {
     return (cards, classes, qualities, races, sets) => {
         return Backbone.View.extend({
             fetchXhr: null,
@@ -21,8 +22,8 @@ define([
                     $.ajax({
                         type: "GET",
                         beforeSend: (request) => {
-                            request.setRequestHeader("x-rapidapi-host", 'omgvamp-hearthstone-v1.p.rapidapi.com');
-                            request.setRequestHeader("x-rapidapi-key", '42b9739520mshf8a90f6e6b85152p1f6030jsn2d2262e748e3');
+                            request.setRequestHeader("x-rapidapi-host", config.rapidapiHost);
+                            request.setRequestHeader("x-rapidapi-key", config.rapidapiKey);
                         },
                         cache:true,
                         url: "https://omgvamp-hearthstone-v1.p.rapidapi.com/info",
@@ -69,6 +70,10 @@ define([
                 this.sets.set(filters.sets);
                 // Render the app
                 this.render();
+                // Starts to load all cards
+                setTimeout(() => {
+                    this.loadAll();
+                }, 50);
             },
             fetchCards: function(complement = null, options = {}) {
                 // Creates the default settings
@@ -78,6 +83,11 @@ define([
                     data: { collectible: 1 },
                     processData: true,
                     success: () => {
+                        // When the request are not stored and has no filters it saves on the localStorage
+                        if (options !== {} && complement !== null && !localStorage.getItem(complement)) {
+                            localStorage.setItem(complement, JSON.stringify(this.cards.toJSON()));
+                        }
+                        // Dispatch the custom event
                         window.dispatchEvent(
                             new CustomEvent("onLoadCards", {
                                 detail: { cards: this.cards.toJSON() },
@@ -100,10 +110,19 @@ define([
                     this.fetchXhr.abort();
                 }
                 // Places a complemenent at the collection url for correct filtered request
-                if (complement !== null)
+                if (complement !== null) {
                     this.cards.url_complement = complement;
-                // Request the cards from the API
-                this.fetchXhr = this.cards.fetch(settings);
+                }
+                // Check if the desired request is already stored at the localStorage
+                if (options !== {} && complement !== null && localStorage.getItem(complement)) {
+                    // Set the cards
+                    this.cards.set(JSON.parse(localStorage.getItem(complement)));
+                    // Request the cards from the localstorage
+                    settings.success();
+                } else {
+                    // Request the cards from the API
+                    this.fetchXhr = this.cards.fetch(settings);
+                }
             },
             loadAll: function() {
                 this.fetchCards('');

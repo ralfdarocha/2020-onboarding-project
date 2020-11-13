@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { CustomSelect } from '..';
+import { CustomSelect } from '@components/index';
 
 describe('Empty <CustomSelect />', () => {
     it('should have the "No options" message when an empty array of options are passed', () => {

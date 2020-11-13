@@ -1,10 +1,10 @@
 import React from 'react';
 import { connect } from 'react-redux';
-import { RootState } from '../../../store';
-import { FilterState } from '../../../store/filter/types';
-import CustomSelect from '../../custom-select/custom-select';
-import { loadCards } from './../../../store/cards/actions';
-import { changeFilter } from './../../../store/filter/actions';
+import { RootState } from '@store/index';
+import { FilterState } from '@store/filter/types';
+import { CustomSelect } from '@components/index';
+import { loadCards } from '@store/cards/actions';
+import { changeFilter } from '@store/filter/actions';
 
 const mapDispatchToProps = { loadCards, changeFilter };
 

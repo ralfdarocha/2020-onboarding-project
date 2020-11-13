@@ -2,10 +2,10 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import { QualityFilter } from '..';
-import metadata from './../../../mock/metadata.json'
-import { changeFilter } from '../../../store/filter/actions';
-import { CHANGE_FILTER, FilterState } from '../../../store/filter/types';
+import { QualityFilter } from '@components/filter-bar';
+import metadata from '@mock/metadata.json'
+import { changeFilter } from '@store/filter/actions';
+import { CHANGE_FILTER, FilterState } from '@store/filter/types';
 
 const mockStore = configureStore([]);
 

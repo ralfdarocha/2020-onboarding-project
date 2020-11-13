@@ -6,22 +6,22 @@ const initialState: CardsState = {
 }
 
 export function cardsReducer(
-  state = initialState,
-  action: CardsTypes
+    state = initialState,
+    action: CardsTypes
 ): CardsState {
-  switch (action.type) {
-    case SET_CARDS: {
-      return {
-        ...action.payload
-      }
+    switch (action.type) {
+        case SET_CARDS: {
+            return {
+                ...action.payload
+            }
+        }
+        case LOADING_CARDS: {
+            return {
+                ...state,
+                loading: true,
+            }
+        }
+        default:
+            return state
     }
-    case LOADING_CARDS: {
-      return {
-        ...state,
-        loading: true,
-      }
-    }
-    default:
-      return state
-  }
 }

@@ -6,13 +6,14 @@ require([
     'qualitycollection',
     'racecollection',
     'setcollection',
+    'rapidapi',
     'reactstone',
-], (Backbone, MainView, CardCollection, ClassCollection, QualityCollection, RaceCollection, SetCollection) => {
+], (Backbone, MainView, CardCollection, ClassCollection, QualityCollection, RaceCollection, SetCollection, config) => {
     // Rapid API headers Configuration
     Backbone.ajax = function() {
         arguments[0].headers = {
-            "x-rapidapi-host": "omgvamp-hearthstone-v1.p.rapidapi.com",
-            "x-rapidapi-key": "42b9739520mshf8a90f6e6b85152p1f6030jsn2d2262e748e3"
+            "x-rapidapi-host": config.rapidapiHost,
+            "x-rapidapi-key": config.rapidapiKey
         };
         return Backbone.$.ajax.apply(Backbone.$, arguments);		
     };

@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { Card } from '..';
-import cardsMock from './../../mock/cards.json'
+import { Card } from '@components/index';
+import cardsMock from '@mock/cards.json'
 import renderer from 'react-test-renderer';
 
 describe('<Card />', () => {

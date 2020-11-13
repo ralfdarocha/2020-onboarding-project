@@ -1,17 +1,30 @@
 {
+    "ts-node": {
+        "transpileOnly": true
+    },
     "compilerOptions": {
 		"outDir": "./dist/",
 		"noImplicitAny": true,
 		"target": "es5",
         "lib": ["es5", "es6", "dom"],
         "typeRoots": ["./node_modules/@types", "./src/typings"],
-		"jsx": "react",
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": ["./src/components/*"],
+            "@functions/*": ["./src/functions/*"],
+            "@images/*": ["./src/images/*"],
+            "@mock/*": ["./src/mock/*"],
+            "@store/*": ["./src/store/*"],
+            "@styles/*": ["./src/styles/*"],
+            "@typings": ["./src/typings/*"]
+        },
+        "jsx": "react",
 		"allowJs": true,
         "moduleResolution": "node",
         "esModuleInterop": true,
         "resolveJsonModule": true,
         "noUnusedLocals": true
     },
-    "include": ["src/**/*"],
+    "include": ["src/**/*"]
 }
   

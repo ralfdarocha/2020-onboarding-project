@@ -9,17 +9,17 @@ const initialState: FilterState = {
 }
 
 export function filterReducer(
-  state = initialState,
-  action: FilterTypes
+    state = initialState,
+    action: FilterTypes
 ): FilterState {
-  switch (action.type) {
-    case CHANGE_FILTER: {
-      return {
-        ...state,
-        ...action.payload
-      }
+    switch (action.type) {
+        case CHANGE_FILTER: {
+            return {
+                ...state,
+                ...action.payload
+            }
+        }
+        default:
+            return state
     }
-    default:
-      return state
-  }
 }

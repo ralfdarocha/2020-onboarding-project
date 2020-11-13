@@ -2,9 +2,9 @@ import React from 'react';
 import { mount } from 'enzyme';
 import { Provider } from 'react-redux';
 import configureStore from 'redux-mock-store';
-import { ManaFilter } from '..';
-import { changeFilter } from '../../../store/filter/actions';
-import { CHANGE_FILTER, FilterState } from '../../../store/filter/types';
+import { ManaFilter } from '@components/filter-bar';
+import { changeFilter } from '@store/filter/actions';
+import { CHANGE_FILTER, FilterState } from '@store/filter/types';
 
 const mockStore = configureStore([]);
 

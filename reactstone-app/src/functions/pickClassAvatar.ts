@@ -10,7 +10,7 @@ import {
     avatarShaman,
     avatarWarlock,
     avatarWarrior
-} from './../images/classes';
+} from '@images/classes';
 
 interface IClassesAvatar {
     [key: string]: string

@@ -1,8 +1,8 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import metadata from './../../mock/metadata.json'
-import Sidebar from './sidebar';
-import { ClassFilter, QualityFilter, RaceFilter, SetFilter } from '../filter-bar';
+import metadata from '@mock/metadata.json'
+import { Sidebar } from '@components/index';
+import { ClassFilter, QualityFilter, RaceFilter, SetFilter } from '@components/filter-bar';
 
 
 describe('<Sidebar />', () => {

@@ -1,8 +1,8 @@
 import React from "react";
 import { Provider } from "react-redux"
-import { CardList, Sidebar} from './../';
-import store from "./../../store"
-import '../../styles/styles.scss';
+import { CardList, Sidebar} from '@components/index';
+import store from "@store/index"
+import '@styles/styles.scss';
   
 const App: React.FC<AppProps> = ({
     classes,

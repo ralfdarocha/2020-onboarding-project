@@ -16,6 +16,7 @@ requirejs.config({
         racecollection: 'collections/RaceCollection',
         setcollection: 'collections/SetCollection',
         mainview: 'views/mainview',
+        rapidapi: 'rapidapi'
     },
     shim: {
         backbonecache: {

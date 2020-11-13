@@ -1,9 +1,8 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import { CardList, CardLoader } from '..';
-import { Card } from '..';
+import { Card, CardList, CardLoader } from '@components/index';
 import { Provider } from 'react-redux';
-import cardsMock from './../../mock/cards.json'
+import cardsMock from '@mock/cards.json'
 import configureStore from 'redux-mock-store';
 
 const mockStore = configureStore([]);
