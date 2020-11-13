@@ -4,14 +4,15 @@ exports[`<Card /> renders correctly 1`] = `
 <div
   className="card card-hero"
 >
-  <img
-    alt="Gul'dan"
+  <span
     className="card-image"
-    height="387"
-    loading="lazy"
-    onError={[Function]}
-    src="https://art.hearthstonejson.com/v1/render/latest/enUS/256x/HERO_07.png"
-    width="256"
+    style={
+      Object {
+        "display": "inline-block",
+        "height": "387",
+        "width": "256",
+      }
+    }
   />
 </div>
 `;
