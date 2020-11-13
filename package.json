@@ -6,7 +6,9 @@
   "scripts": {
     "start": "grunt",
     "dist": "grunt dist",
-    "heroku-prebuild": "npm install && grunt dist && rm -rf app reactstone-app node_modules"
+    "heroku-prebuild": "NPM_CONFIG_PRODUCTION=false npm install && grunt dist",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=true",
+    "heroku-cleanup": "rm -rf app reactstone-app node_modules" 
   },
   "repository": {
     "type": "git",
