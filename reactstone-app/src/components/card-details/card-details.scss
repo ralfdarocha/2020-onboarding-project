@@ -18,6 +18,9 @@
         opacity: 1;
         visibility: visible;
         transition-delay: 0s;
+        &~.card-list {
+            overflow: hidden;
+        }
     }
     .card-details-wrapper {
         display: flex;
@@ -28,19 +31,17 @@
         align-items: center;
         overflow: auto;
         max-height: 100vh;
+        .card-wrapper{
+            overflow: hidden;
+        }
         .card {
-            background: none !important;
+            // background: none !important;
             cursor: default;
             width: 30vw !important;
             min-width: 280px;
             max-width: 400px !important;
             &:hover {
-                img, .no-image-card{
-                    transform: none;
-                }
-            }
-            &.card-hero:hover img {
-                transform: translateY(-5.5%);
+                transform: none;
             }
         }
         .card-details-content {
@@ -95,6 +96,16 @@
                 li {
                     font-size: 16px;
                     padding: 2px 0;
+                    transform: translateY(-15px);
+                }
+                &.animate {
+                    @for $i from 1 to 10 {
+                        li:nth-child(#{$i}) { 
+                            transition-delay: ($i - 1) * 0.05s; 
+                            transform: translateY(0px);
+                            opacity: 1;
+                        }
+                    }
                 }
             }
             .close-details {
