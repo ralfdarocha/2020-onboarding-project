@@ -15,7 +15,7 @@ requirejs.config({
         qualitycollection: 'collections/QualityCollection',
         racecollection: 'collections/RaceCollection',
         setcollection: 'collections/SetCollection',
-        mainview: 'views/mainview',
+        mainview: 'views/MainView',
         rapidapi: 'rapidapi'
     },
     shim: {

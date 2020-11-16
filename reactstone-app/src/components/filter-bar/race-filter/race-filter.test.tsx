@@ -6,6 +6,7 @@ import { RaceFilter } from '@components/filter-bar';
 import metadata from '@mock/metadata.json'
 import { changeFilter } from '@store/filter/actions';
 import { CHANGE_FILTER, FilterState } from '@store/filter/types';
+import waitForComponentToPaint from '@functions/waitForComponentToPaint';
 
 const mockStore = configureStore([]);
 
@@ -26,6 +27,7 @@ describe('<RaceFilter />', () => {
             <RaceFilter races={options} />
         </Provider>
     );
+    waitForComponentToPaint(component);
 
     it('should have options', () => {
         expect(component.find('.select-portal-options').exists()).toBeTruthy();

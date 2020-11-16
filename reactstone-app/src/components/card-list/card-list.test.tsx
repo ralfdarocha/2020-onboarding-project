@@ -4,6 +4,7 @@ import { Card, CardList, CardLoader } from '@components/index';
 import { Provider } from 'react-redux';
 import cardsMock from '@mock/cards.json'
 import configureStore from 'redux-mock-store';
+import waitForComponentToPaint from '@functions/waitForComponentToPaint';
 
 const mockStore = configureStore([]);
 
@@ -20,6 +21,7 @@ describe('<CardList />', () => {
                 <CardList />
             </Provider>
         );
+        waitForComponentToPaint(component);
         expect(component.find('.card-list-content').children(CardLoader).exists()).toBe(true);
     });
 
@@ -35,6 +37,7 @@ describe('<CardList />', () => {
                 <CardList />
             </Provider>
         );
+        waitForComponentToPaint(component);
         expect(component.find('.card-list-content').children(Card).exists()).toBe(true);
     });
 
@@ -50,6 +53,7 @@ describe('<CardList />', () => {
                 <CardList />
             </Provider>
         );
+        waitForComponentToPaint(component);
         expect(component.find('.no-cards').exists()).toBe(true);
     });
 });

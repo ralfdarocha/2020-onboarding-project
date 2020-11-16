@@ -1,10 +1,9 @@
 import React, { useEffect } from 'react';
-import Card from '../card/card';
-import CardLoader from '../card-loader/card-loader';
+import { Card, CardLoader } from '@components/index';
 import { connect } from 'react-redux';
-import { setCards } from '../../store/cards/actions';
-import { RootState } from '../../store';
-import { CardsState } from '../../store/cards/types';
+import { setCards } from '@store/cards/actions';
+import { RootState } from '@store/index';
+import { CardsState } from '@store/cards/types';
 
 const mapDispatchToProps = { setCards };
 

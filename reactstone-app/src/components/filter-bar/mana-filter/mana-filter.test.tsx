@@ -5,6 +5,7 @@ import configureStore from 'redux-mock-store';
 import { ManaFilter } from '@components/filter-bar';
 import { changeFilter } from '@store/filter/actions';
 import { CHANGE_FILTER, FilterState } from '@store/filter/types';
+import waitForComponentToPaint from '@functions/waitForComponentToPaint';
 
 const mockStore = configureStore([]);
 
@@ -24,6 +25,7 @@ describe('<ManaFilter />', () => {
             <ManaFilter />
         </Provider>
     );
+    waitForComponentToPaint(component);
 
     it('should have mana options', () => {
         expect(component.find('.mana-icon').exists()).toBeTruthy();
