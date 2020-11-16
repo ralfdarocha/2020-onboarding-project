@@ -1,23 +1,35 @@
 import React, { useState } from 'react';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { connect } from 'react-redux';
+import { openCardDetails } from '@store/cards/actions';
+import { CardsTypes } from '@store/cards/types';
 
-interface Props {
-    card: ICard
+interface CardProps {
+    card: ICard,
+    details?: boolean
 }
 
-const Card: React.FC<Props> = ({ card }: Props) => {
+const mapDispatchToProps = { openCardDetails };
+
+type Props = CardProps & typeof mapDispatchToProps;
+
+const Card: React.FC<Props> = ({ card, details = false, ...props }: Props) => {
 
     const [hasImage, setHasImage] = useState<boolean>(card.img !== null && card.img !== undefined);
 
     return (
-        <div className={`card${card.type === 'Hero' ? ' card-hero' : ''}${!hasImage ? ' no-image' : ''}`}>
+        <div 
+            onClick={!details ? ():CardsTypes => props.openCardDetails(card) : undefined}
+            className={`card${card.type === 'Hero' ? ' card-hero' : ''}${!hasImage ? ' no-image' : ''}`}
+        >
             {hasImage &&
                 <LazyLoadImage
-                    src={`https://art.hearthstonejson.com/v1/render/latest/enUS/256x/${card.cardId}.png`}
+                    src={`https://art.hearthstonejson.com/v1/render/latest/enUS/${details ? '512x': '256x'}/${card.cardId}.png`}
                     className="card-image"
                     alt={card.name}
-                    width="256"
-                    height="387"
+                    effect="opacity"
+                    width={details ? "512" : "256"}
+                    height={details ? "776" : "387"}
                     onError={() => setHasImage(false)}
                 />
             }
@@ -49,4 +61,4 @@ const Card: React.FC<Props> = ({ card }: Props) => {
     )
 }
 
-export default Card;
+export default connect(null, mapDispatchToProps)(Card);

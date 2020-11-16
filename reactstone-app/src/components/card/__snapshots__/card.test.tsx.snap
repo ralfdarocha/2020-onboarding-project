@@ -1,55 +1,204 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Card /> renders correctly 1`] = `
-<div
-  className="card card-hero"
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
 >
-  <span
-    className="card-image"
-    style={
+  <Connect(Card)
+    card={
       Object {
-        "display": "inline-block",
-        "height": "387",
-        "width": "256",
+        "cardId": "HERO_07",
+        "cardSet": "Basic",
+        "collectible": true,
+        "dbfId": "893",
+        "faction": "Neutral",
+        "health": 30,
+        "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_07.png",
+        "locale": "enUS",
+        "name": "Gul'dan",
+        "playerClass": "Warlock",
+        "rarity": "Free",
+        "type": "Hero",
       }
     }
-  />
-</div>
+  >
+    <Card
+      card={
+        Object {
+          "cardId": "HERO_07",
+          "cardSet": "Basic",
+          "collectible": true,
+          "dbfId": "893",
+          "faction": "Neutral",
+          "health": 30,
+          "img": "http://media.services.zam.com/v1/media/byName/hs/cards/enus/HERO_07.png",
+          "locale": "enUS",
+          "name": "Gul'dan",
+          "playerClass": "Warlock",
+          "rarity": "Free",
+          "type": "Hero",
+        }
+      }
+      openCardDetails={[Function]}
+    >
+      <div
+        className="card card-hero"
+        onClick={[Function]}
+      >
+        <t
+          afterLoad={[Function]}
+          alt="Gul'dan"
+          beforeLoad={[Function]}
+          className="card-image"
+          delayMethod="throttle"
+          delayTime={300}
+          effect="opacity"
+          height="387"
+          onError={[Function]}
+          placeholderSrc={null}
+          src="https://art.hearthstonejson.com/v1/render/latest/enUS/256x/HERO_07.png"
+          threshold={100}
+          useIntersectionObserver={true}
+          visibleByDefault={false}
+          width="256"
+          wrapperClassName=""
+        >
+          <span
+            className=" lazy-load-image-background opacity"
+            style={
+              Object {
+                "backgroundImage": "",
+                "backgroundSize": "",
+                "color": "transparent",
+                "display": "inline-block",
+                "height": "387",
+                "width": "256",
+              }
+            }
+          >
+            <t
+              afterLoad={[Function]}
+              beforeLoad={[Function]}
+              className="card-image"
+              delayMethod="throttle"
+              delayTime={300}
+              height="387"
+              threshold={100}
+              useIntersectionObserver={true}
+              visibleByDefault={false}
+              width="256"
+            >
+              <img
+                alt="Gul'dan"
+                className="card-image"
+                height="387"
+                onError={[Function]}
+                onLoad={[Function]}
+                src="https://art.hearthstonejson.com/v1/render/latest/enUS/256x/HERO_07.png"
+                width="256"
+              />
+            </t>
+          </span>
+        </t>
+      </div>
+    </Card>
+  </Connect(Card)>
+</Provider>
 `;
 
 exports[`<Card /> renders image fallback 1`] = `
-<div
-  className="card card-hero no-image"
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
 >
-  <div
-    className="no-image-card"
+  <Connect(Card)
+    card={
+      Object {
+        "cardId": "HERO_08f",
+        "cardSet": "Hero Skins",
+        "collectible": true,
+        "dbfId": "61598",
+        "faction": "Neutral",
+        "health": 30,
+        "locale": "enUS",
+        "name": "Scholar Jaina",
+        "playerClass": "Mage",
+        "rarity": "Free",
+        "type": "Hero",
+      }
+    }
   >
-    <div
-      className="card-image"
+    <Card
+      card={
+        Object {
+          "cardId": "HERO_08f",
+          "cardSet": "Hero Skins",
+          "collectible": true,
+          "dbfId": "61598",
+          "faction": "Neutral",
+          "health": 30,
+          "locale": "enUS",
+          "name": "Scholar Jaina",
+          "playerClass": "Mage",
+          "rarity": "Free",
+          "type": "Hero",
+        }
+      }
+      openCardDetails={[Function]}
     >
-      Image not found
-    </div>
-    <div
-      className="card-cost"
-    >
-      <span>
-        0
-      </span>
-    </div>
-    <div
-      className="card-title"
-    >
-      <span>
-        Scholar Jaina
-      </span>
-    </div>
-    <div
-      className="card-health"
-    >
-      <span>
-        30
-      </span>
-    </div>
-  </div>
-</div>
+      <div
+        className="card card-hero no-image"
+        onClick={[Function]}
+      >
+        <div
+          className="no-image-card"
+        >
+          <div
+            className="card-image"
+          >
+            Image not found
+          </div>
+          <div
+            className="card-cost"
+          >
+            <span>
+              0
+            </span>
+          </div>
+          <div
+            className="card-title"
+          >
+            <span>
+              Scholar Jaina
+            </span>
+          </div>
+          <div
+            className="card-health"
+          >
+            <span>
+              30
+            </span>
+          </div>
+        </div>
+      </div>
+    </Card>
+  </Connect(Card)>
+</Provider>
 `;

@@ -1,8 +1,10 @@
-import { CardsState, CardsTypes, SET_CARDS, LOADING_CARDS } from './types'
+import { CardsState, CardsTypes, SET_CARDS, LOADING_CARDS, OPEN_CARD_DETAILS, CLOSE_CARD_DETAILS } from './types'
 
 const initialState: CardsState = {
     loading: true,
-    cards: []
+    cards: [],
+    cardDetails: null,
+    detailsOpen: false
 }
 
 export function cardsReducer(
@@ -12,13 +14,28 @@ export function cardsReducer(
     switch (action.type) {
         case SET_CARDS: {
             return {
-                ...action.payload
+                ...state,
+                cards: action.payload,
+                loading: false
             }
         }
         case LOADING_CARDS: {
             return {
                 ...state,
-                loading: true,
+                loading: true
+            }
+        }
+        case OPEN_CARD_DETAILS: {
+            return {
+                ...state,
+                cardDetails: action.payload,
+                detailsOpen: true
+            }
+        }
+        case CLOSE_CARD_DETAILS: {
+            return {
+                ...state,
+                detailsOpen: false
             }
         }
         default:

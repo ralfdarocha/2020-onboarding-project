@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Card: React.FC = () => {
+const CardLoader: React.FC = () => {
     return (<div className="card-loader"></div>)
 }
 
-export default Card;
+export default CardLoader;
