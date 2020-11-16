@@ -5,6 +5,7 @@ define([
     'rapidapi'
 ], (_, Backbone, mainView, config) => {
     return (cards, classes, qualities, races, sets) => {
+        let cardsCost = null;
         return Backbone.View.extend({
             fetchXhr: null,
             cards: cards, 
@@ -80,11 +81,11 @@ define([
                 const settings = {
                     cache: true, 
                     expires: 3600,
-                    data: { collectible: 1 },
+                    data: cardsCost != null ? { collectible: 1, cost: cardsCost } : { collectible: 1 },
                     processData: true,
                     success: () => {
                         // When the request are not stored and has no filters it saves on the localStorage
-                        if (options !== {} && complement !== null && !localStorage.getItem(complement)) {
+                        if (cardsCost === null && complement !== null && !localStorage.getItem(complement)) {
                             localStorage.setItem(complement, JSON.stringify(this.cards.toJSON()));
                         }
                         // Dispatch the custom event
@@ -114,7 +115,7 @@ define([
                     this.cards.url_complement = complement;
                 }
                 // Check if the desired request is already stored at the localStorage
-                if (options !== {} && complement !== null && localStorage.getItem(complement)) {
+                if (cardsCost === null && complement !== null && localStorage.getItem(complement)) {
                     // Set the cards
                     this.cards.set(JSON.parse(localStorage.getItem(complement)));
                     // Request the cards from the localstorage
@@ -140,11 +141,8 @@ define([
                 this.fetchCards(`/sets/${setSlug}`);
             },
             changeCost: function(manaCost) {
-                if (manaCost == null) {
-                    this.fetchCards(null);
-                } else {
-                    this.fetchCards(null, {data: { cost: manaCost, collectible: 1 }});
-                }
+                cardsCost = manaCost;
+                this.fetchCards(null);
             },
         });
     }

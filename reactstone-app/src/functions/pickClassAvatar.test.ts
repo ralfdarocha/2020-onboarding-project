@@ -1,5 +1,4 @@
 import pickClassAvatar from './pickClassAvatar';
-import 'mocha';
 import { avatarDemonhunter } from '@images/classes';
 
 describe('pickClassAvatar', () => {

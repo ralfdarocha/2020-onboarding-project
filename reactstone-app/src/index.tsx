@@ -50,7 +50,6 @@ ReactDOM.render(
                 }
             });
             window.addEventListener("onResetFilters", () :void => { 
-                cost = null; 
                 dispatchDevCards(cardsMock, null)
             });
         },1);

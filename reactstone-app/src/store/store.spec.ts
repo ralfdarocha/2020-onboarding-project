@@ -2,10 +2,11 @@ import 'mocha';
 import { expect } from 'chai';
 import store from '@store/index'
 import { changeFilter } from '@store/filter/actions'
-import { setCards, loadCards, openCardDetails, closeCardDetails } from '@store/cards/actions'
+import { setCards, loadCards, loadMore, openCardDetails, closeCardDetails } from '@store/cards/actions'
 import { FilterState } from '@store/filter/types';
 import { CardsState } from '@store/cards/types';
 import cardsMock from '@mock/cards.json'
+import { pageSize, paginator } from '@functions/paginator';
 
 describe('Mocha: Store', () => {
     it('changes filters', () => {
@@ -49,7 +50,23 @@ describe('Mocha: Store', () => {
             cards: {
                 ...store.getState().cards,
                 loading: false,
-                cards: cardsMock
+                allCards: cardsMock,
+                cards: paginator(cardsMock),
+                page: 1,
+                totalPages: Math.ceil(cardsMock.length / pageSize)
+            }
+        }
+        expect(store.getState()).to.deep.equal(expectedState);
+    })
+    it('load more cards', () => {
+        const loadMoreAction = loadMore();
+        store.dispatch(loadMoreAction);
+        const expectedState:{cards: CardsState, filter: FilterState} = {
+            ...store.getState(),
+            cards: {
+                ...store.getState().cards,
+                page: 2,
+                cards: paginator(cardsMock).concat(paginator(cardsMock, 2))
             }
         }
         expect(store.getState()).to.deep.equal(expectedState);

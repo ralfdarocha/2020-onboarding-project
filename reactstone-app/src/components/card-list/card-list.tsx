@@ -1,15 +1,18 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Card, CardLoader } from '@components/index';
 import { connect } from 'react-redux';
-import { setCards } from '@store/cards/actions';
+import { setCards, loadMore } from '@store/cards/actions';
 import { RootState } from '@store/index';
 import { CardsState } from '@store/cards/types';
+import InfiniteScroll from 'react-infinite-scroller';
 
-const mapDispatchToProps = { setCards };
+const mapDispatchToProps = { setCards, loadMore };
 
 type Props = CardsState & typeof mapDispatchToProps;
 
-const CardList: React.FC<Props> = ({ loading, cards, ...props }: Props) => {
+const CardList: React.FC<Props> = ({ loading, allCards, cards, totalPages, page, ...props }: Props) => {
+
+    const [hasMore, setHasMore] = useState<boolean>(true);
 
     // Executed only once
     useEffect(() => {
@@ -20,17 +23,29 @@ const CardList: React.FC<Props> = ({ loading, cards, ...props }: Props) => {
             props.setCards([]);
         });
     }, []);
+    
+    // Every time page or totalPages changes it resets the hasMore with the correct value
+    useEffect(() => {
+        setHasMore(page < totalPages);
+    }, [page, totalPages]);
 
     return (
         <section className={`card-list${loading ? ' is-loading' : ''}`}>
-            <div className="card-list-content">
+            <InfiniteScroll
+                pageStart={0}
+                initialLoad={false}
+                loadMore={props.loadMore}
+                hasMore={hasMore}
+                className="card-list-content"
+                useWindow={true}
+            >
                 {loading && Array.from({ length: 12 }).map((num: any, index: number) =>
                     <CardLoader key={`loader-${index}`} />
                 )}
                 {(!loading && cards.length > 0) &&
                     cards.map(card => <Card key={card.cardId} card={card} />)
                 }
-            </div>
+            </InfiniteScroll>
             {(!loading && !cards.length) &&
                 <div className="no-cards">
                     <div className="no-cards-title">No cards found!</div>

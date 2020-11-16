@@ -5,22 +5,24 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --config webpack.dev.ts",
-    "build": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.spec.tsx && jest && webpack --mode production --config webpack.prod.ts",
-    "test": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.spec.tsx && jest",
+    "build": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.spec.ts && jest && webpack --mode production --config webpack.prod.ts",
+    "test": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.spec.ts && jest",
     "test:jest": "jest",
     "test:update": "jest --updateSnapshot",
-    "test:mocha": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.spec.tsx"
+    "test:mocha": "mocha -r ts-node/register -r tsconfig-paths/register src/**/*.spec.ts"
   },
   "author": "Ralf da Rocha",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "@babel/runtime": "^7.12.1",
+    "@types/react-infinite-scroller": "^1.2.1",
     "@types/react-lazy-load-image-component": "^1.5.1",
     "@types/redux-logger": "^3.0.8",
     "normalize-scss": "^7.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-infinite-scroller": "^1.2.4",
     "react-lazy-load-image-component": "^1.5.0",
     "react-redux": "^7.2.2",
     "react-shadow-dom-retarget-events": "^1.0.11",

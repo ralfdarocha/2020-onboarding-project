@@ -1,8 +1,12 @@
-import { CardsState, CardsTypes, SET_CARDS, LOADING_CARDS, OPEN_CARD_DETAILS, CLOSE_CARD_DETAILS } from './types'
+import { paginator, pageSize } from '@functions/paginator'
+import { CardsState, CardsTypes, SET_CARDS, LOADING_CARDS, OPEN_CARD_DETAILS, CLOSE_CARD_DETAILS, LOAD_MORE } from './types'
 
 const initialState: CardsState = {
     loading: true,
     cards: [],
+    allCards: [],
+    page: 1,
+    totalPages: 1,
     cardDetails: null,
     detailsOpen: false
 }
@@ -15,8 +19,19 @@ export function cardsReducer(
         case SET_CARDS: {
             return {
                 ...state,
-                cards: action.payload,
+                allCards: action.payload,
+                cards: paginator(action.payload),
+                page: 1,
+                totalPages: Math.ceil(action.payload.length / pageSize),
                 loading: false
+            }
+        }
+        case LOAD_MORE: {
+            const nextPage:number = state.page + 1;
+            return {
+                ...state,
+                page: nextPage,
+                cards: state.cards.concat(paginator(state.allCards, nextPage))
             }
         }
         case LOADING_CARDS: {
