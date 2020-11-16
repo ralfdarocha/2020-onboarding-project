@@ -1,6 +1,7 @@
 const moduleNameMapper = require("tsconfig-paths-jest")(require("./tsconfig.json"))
 
 module.exports = {
+    "verbose": true,
     "moduleFileExtensions": [
       "ts",
       "tsx",
