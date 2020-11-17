@@ -76,24 +76,29 @@ define([
                     this.loadAll();
                 }, 50);
             },
+            dispatchCards: function() {
+                // Pick all cards or filter by mana cost
+                const cards = cardsCost !== null ? this.cards.filterByCost(cardsCost) : this.cards.toJSON();
+                // Dispatch the custom event
+                window.dispatchEvent(
+                    new CustomEvent("onLoadCards", {
+                        detail: { cards: cards },
+                    })
+                );
+            },
             fetchCards: function(complement = null, options = {}) {
                 // Creates the default settings
                 const settings = {
                     cache: true, 
                     expires: 3600,
-                    data: cardsCost != null ? { collectible: 1, cost: cardsCost } : { collectible: 1 },
+                    data: { collectible: 1 },
                     processData: true,
                     success: () => {
                         // When the request are not stored and has no filters it saves on the localStorage
                         if (cardsCost === null && complement !== null && !localStorage.getItem(complement)) {
                             localStorage.setItem(complement, JSON.stringify(this.cards.toJSON()));
                         }
-                        // Dispatch the custom event
-                        window.dispatchEvent(
-                            new CustomEvent("onLoadCards", {
-                                detail: { cards: this.cards.toJSON() },
-                            })
-                        );
+                        this.dispatchCards();
                     },
                     error: (collection, response, options) => {
                         if (response.statusText !== 'abort') {
@@ -141,8 +146,10 @@ define([
                 this.fetchCards(`/sets/${setSlug}`);
             },
             changeCost: function(manaCost) {
+                // Defines the cost to be filtered on others requests:
                 cardsCost = manaCost;
-                this.fetchCards(null);
+                // Dispatch the Cards
+                this.dispatchCards();
             },
         });
     }

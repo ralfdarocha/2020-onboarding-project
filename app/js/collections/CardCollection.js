@@ -9,13 +9,17 @@ define([ 'backbone', 'cardmodel' ], function(Backbone, CardModel) {
             if (this.url_complement !== '') {
                 return response.filter((item) => item.img !== undefined);
             } else {
-                var cards = [];
-                var keys = Object.keys(response);
+                let cards = [];
+                const keys = Object.keys(response);
                 for (var i in keys){
                     cards = cards.concat(response[keys[i]]);
                 }
                 return cards.filter((item) => item.img !== undefined);
             }
+        },
+        filterByCost: function(cost) {
+            let models = this.select((model) => cost < 10 ? model.get('cost') == cost : model.get('cost') > cost);
+            return models.map((model) => model.toJSON());
         }
     });
 });
