@@ -128,7 +128,7 @@ define([
                 if (sessionStorage.getItem(storageKey)) {
                     // Set the cards
                     this.cards.set(JSON.parse(sessionStorage.getItem(storageKey)));
-                    // Request the cards from the localstorage
+                    // Request the cards from the sessionStorage
                     settings.success();
                 } else {
                     // Request the cards from the API
