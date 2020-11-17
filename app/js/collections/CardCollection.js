@@ -18,7 +18,7 @@ define([ 'backbone', 'cardmodel' ], function(Backbone, CardModel) {
             }
         },
         filterByCost: function(cost) {
-            let models = this.select((model) => cost < 10 ? model.get('cost') == cost : model.get('cost') > cost);
+            let models = this.select((model) => cost < 10 ? model.get('cost') == cost : model.get('cost') >= cost);
             return models.map((model) => model.toJSON());
         }
     });
