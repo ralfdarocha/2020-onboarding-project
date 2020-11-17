@@ -88,6 +88,7 @@ define([
                 $('html,body').animate({ scrollTop: 0 }, 200);
             },
             fetchCards: function(complement = '', options = {}) {
+                const storageKey = complement === '' ? '/all' : complement;
                 // Creates the default settings
                 const settings = {
                     cache: true, 
@@ -96,9 +97,10 @@ define([
                     processData: true,
                     success: () => {
                         // When the request are not stored and has no filters it saves on the localStorage
-                        if (!localStorage.getItem(complement)) {
-                            localStorage.setItem(complement, JSON.stringify(this.cards.toJSON()));
+                        if (!localStorage.getItem(storageKey)) {
+                            localStorage.setItem(storageKey, JSON.stringify(this.cards.toJSON()));
                         }
+                        // Dispatch the cards to the custom events
                         this.dispatchCards();
                     },
                     error: (collection, response, options) => {
@@ -119,9 +121,9 @@ define([
                 // Places a complemenent at the collection url for correct filtered request
                 this.cards.url_complement = complement;
                 // Check if the desired request is already stored at the localStorage
-                if (localStorage.getItem(complement)) {
+                if (localStorage.getItem(storageKey)) {
                     // Set the cards
-                    this.cards.set(JSON.parse(localStorage.getItem(complement)));
+                    this.cards.set(JSON.parse(localStorage.getItem(storageKey)));
                     // Request the cards from the localstorage
                     settings.success();
                 } else {

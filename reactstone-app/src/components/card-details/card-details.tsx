@@ -33,25 +33,26 @@ const CardDetails: React.FC<Props> = ({ detailsOpen, cardDetails, ...props }: Pr
                     <div className="card-wrapper">
                         <Card card={cardDetails} details={true} />
                     </div>
+                    {console.log(cardDetails.race !== undefined && cardDetails.race !== null)}
                     <ul className={`card-details-content${animate ? ' animate' : ''}`}>
                         <li><strong>Name: </strong><span>{cardDetails.name}</span></li>
                         <li><strong>Set: </strong><span>{cardDetails.cardSet}</span></li>
                         <li><strong>Type: </strong><span>{cardDetails.type}</span></li>
-                        {(cardDetails.race !== undefined && cardDetails.race !== null) &&
+                        {(cardDetails.race !== undefined && cardDetails.race !== null && cardDetails.race !== "") &&
                         <li><strong>Race: </strong><span>{cardDetails.race}</span></li>
                         }
                         <li><strong>Player Class: </strong><span>{cardDetails.playerClass}</span></li>
-                        {(cardDetails.rarity !== undefined && cardDetails.rarity !== null) &&
+                        {(cardDetails.rarity !== undefined && cardDetails.rarity !== null && cardDetails.rarity !== "") &&
                         <li><strong>Rarity: </strong><span>{cardDetails.rarity}</span></li>
                         }
-                        {(cardDetails.faction !== undefined && cardDetails.faction !== null) &&
+                        {(cardDetails.faction !== undefined && cardDetails.faction !== null && cardDetails.faction !== "") &&
                         <li><strong>Faction: </strong><span>{cardDetails.faction}</span></li>
                         }
-                        {(cardDetails.howToGet !== undefined && cardDetails.howToGet !== null) &&
+                        {(cardDetails.howToGet !== undefined && cardDetails.howToGet !== null && cardDetails.howToGet !== "") &&
                         <li><strong>How to get: </strong><span>{cardDetails.howToGet}</span></li>
                         }
-                        {(cardDetails.howToGetGold !== undefined && cardDetails.howToGetGold !== null) &&
-                        <li><strong>How to get gold: </strong><span>{cardDetails.howToGetGold}</span></li>
+                        {(cardDetails.howToGetGold !== undefined && cardDetails.howToGetGold !== null && cardDetails.howToGetGold !== "") &&
+                        <li><strong>Gold version: </strong><span>{cardDetails.howToGetGold}</span></li>
                         }
                         {(cardDetails.flavor !== undefined && cardDetails.flavor !== null) &&
                         <li><strong>Flavor: </strong><span>{cardDetails.flavor.replace(/\\n/g, " ")}</span></li>
