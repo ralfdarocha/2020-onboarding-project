@@ -85,8 +85,9 @@ define([
                         detail: { cards: cards },
                     })
                 );
+                $('html,body').animate({ scrollTop: 0 }, 200);
             },
-            fetchCards: function(complement = null, options = {}) {
+            fetchCards: function(complement = '', options = {}) {
                 // Creates the default settings
                 const settings = {
                     cache: true, 
@@ -95,7 +96,7 @@ define([
                     processData: true,
                     success: () => {
                         // When the request are not stored and has no filters it saves on the localStorage
-                        if (cardsCost === null && complement !== null && !localStorage.getItem(complement)) {
+                        if (!localStorage.getItem(complement)) {
                             localStorage.setItem(complement, JSON.stringify(this.cards.toJSON()));
                         }
                         this.dispatchCards();
@@ -116,11 +117,9 @@ define([
                     this.fetchXhr.abort();
                 }
                 // Places a complemenent at the collection url for correct filtered request
-                if (complement !== null) {
-                    this.cards.url_complement = complement;
-                }
+                this.cards.url_complement = complement;
                 // Check if the desired request is already stored at the localStorage
-                if (cardsCost === null && complement !== null && localStorage.getItem(complement)) {
+                if (localStorage.getItem(complement)) {
                     // Set the cards
                     this.cards.set(JSON.parse(localStorage.getItem(complement)));
                     // Request the cards from the localstorage
