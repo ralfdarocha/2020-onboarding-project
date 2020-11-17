@@ -96,9 +96,13 @@ define([
                     data: { collectible: 1 },
                     processData: true,
                     success: () => {
-                        // When the request are not stored and has no filters it saves on the localStorage
-                        if (!localStorage.getItem(storageKey)) {
-                            localStorage.setItem(storageKey, JSON.stringify(this.cards.toJSON()));
+                        // When the request are not stored and has no filters it saves on the sessionStorage
+                        if (!sessionStorage.getItem(storageKey)) {
+                            try {
+                                sessionStorage.setItem(storageKey, JSON.stringify(this.cards.toJSON()));
+                            } catch(e){
+                                console.warn('Sorry, the sessionStorage has exceeded the size limits. We are no long able to save new requests to speed up your experiencing.');
+                            }
                         }
                         // Dispatch the cards to the custom events
                         this.dispatchCards();
@@ -120,10 +124,10 @@ define([
                 }
                 // Places a complemenent at the collection url for correct filtered request
                 this.cards.url_complement = complement;
-                // Check if the desired request is already stored at the localStorage
-                if (localStorage.getItem(storageKey)) {
+                // Check if the desired request is already stored at the sessionStorage
+                if (sessionStorage.getItem(storageKey)) {
                     // Set the cards
-                    this.cards.set(JSON.parse(localStorage.getItem(storageKey)));
+                    this.cards.set(JSON.parse(sessionStorage.getItem(storageKey)));
                     // Request the cards from the localstorage
                     settings.success();
                 } else {
